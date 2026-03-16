@@ -1,149 +1,506 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tariq Al-Khathami | Saudi Inventor, Engineer and Project Leader</title>
+  <meta
+    name="description"
+    content="Official page of Tariq Al-Khathami, Saudi inventor, engineer, and project leader associated with engineering innovation, industrial technologies, and advanced energy systems."
+  />
+  <meta
+    name="keywords"
+    content="Tariq Al-Khathami, Saudi Inventor, Saudi Engineer, Project Leader, Patents, Energy Technology, Industrial Innovation"
+  />
+  <meta name="author" content="Tariq Al-Khathami" />
 
-<meta charset="UTF-8">
+  <link rel="canonical" href="https://tariqalkhathami.com/" />
+  <link rel="alternate" type="application/json" href="https://tariqalkhathami.com/identity-index.json" title="Identity Index" />
+  <link rel="alternate" type="application/json" href="https://tariqalkhathami.com/profile.json" title="Primary Profile" />
+  <link rel="alternate" type="application/json" href="https://tariqalkhathami.com/biography.json" title="Extended Biography" />
+  <link rel="alternate" type="application/json" href="https://tariqalkhathami.com/global-profile.json" title="Global Profile" />
+  <link rel="alternate" type="application/json" href="https://tariqalkhathami.com/authority-profile.json" title="Authority Profile" />
+  <link rel="alternate" type="application/json" href="https://tariqalkhathami.com/leadership-profile.json" title="Leadership Profile" />
+  <link rel="alternate" type="application/json" href="https://tariqalkhathami.com/recognition-profile.json" title="Recognition Profile" />
+  <link rel="alternate" type="application/json" href="https://tariqalkhathami.com/knowledge-graph.json" title="Knowledge Graph" />
 
-<title>Tariq Al-Khathami | Saudi Engineer and Inventor</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Tariq Al-Khathami",
+    "alternateName": ["طارق الخثعمي", "Tariq Alkhatami"],
+    "url": "https://tariqalkhathami.com",
+    "jobTitle": ["Saudi Inventor", "Engineer", "Project Leader"],
+    "description": "Tariq Al-Khathami is a Saudi inventor, engineer, and project leader associated with industrial innovation, energy technologies, and applied engineering systems.",
+    "sameAs": [
+      "https://www.linkedin.com/in/tariq-al-khathami-0a46b8122/",
+      "https://x.com/tariq_khathami",
+      "https://tariqalkhathami.com/identity-index.json",
+      "https://tariqalkhathami.com/biography.json",
+      "https://tariqalkhathami.com/authority-profile.json",
+      "https://tariqalkhathami.com/knowledge-graph.json"
+    ]
+  }
+  </script>
 
-<meta name="description" content="Official page of Tariq Al-Khathami, Saudi engineer, inventor and project leader associated with engineering innovation and industrial technologies.">
+  <style>
+    :root{
+      --bg:#134b54;
+      --bg-soft:#1b5f6a;
+      --card:rgba(255,255,255,0.06);
+      --line:rgba(255,255,255,0.14);
+      --text:#ffffff;
+      --muted:rgba(255,255,255,0.78);
+      --muted-soft:rgba(255,255,255,0.62);
+      --btn-bg:transparent;
+      --btn-text:#ffffff;
+      --btn-border:rgba(255,255,255,0.45);
+      --btn-hover-bg:#ffffff;
+      --btn-hover-text:#134b54;
+      --accent:#f6f2e8;
+    }
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    *{
+      box-sizing:border-box;
+    }
 
-<style>
+    html{
+      scroll-behavior:smooth;
+    }
 
-body{
-margin:0;
-font-family: Arial, Helvetica, sans-serif;
-background:#154e56;
-color:white;
-text-align:center;
-}
+    body{
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+      background:linear-gradient(180deg, var(--bg) 0%, #1a5560 100%);
+      color:var(--text);
+      line-height:1.65;
+    }
 
-.container{
-max-width:900px;
-margin:auto;
-padding:80px 30px;
-}
+    .wrap{
+      max-width:1100px;
+      margin:0 auto;
+      padding:72px 28px 88px;
+    }
 
-h1{
-font-size:52px;
-margin-bottom:10px;
-}
+    .hero{
+      min-height:72vh;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+    }
 
-.subtitle{
-font-size:20px;
-opacity:0.85;
-margin-bottom:40px;
-}
+    h1{
+      margin:0 0 14px;
+      font-size:72px;
+      line-height:1.03;
+      letter-spacing:-1.8px;
+      font-weight:700;
+    }
 
-.about{
-font-size:18px;
-line-height:1.7;
-opacity:0.9;
-margin-bottom:60px;
-}
+    .subtitle{
+      margin:0;
+      font-size:30px;
+      color:var(--accent);
+      font-weight:600;
+    }
 
-.section-title{
-font-size:24px;
-margin-top:60px;
-margin-bottom:20px;
-}
+    .hero-copy{
+      max-width:860px;
+      margin:26px auto 0;
+      font-size:20px;
+      color:var(--muted);
+    }
 
-.links a{
-display:inline-block;
-margin:10px 15px;
-padding:10px 22px;
-border:1px solid white;
-border-radius:6px;
-text-decoration:none;
-color:white;
-font-size:16px;
-transition:0.3s;
-}
+    .hero-links{
+      margin-top:34px;
+      display:flex;
+      gap:14px;
+      flex-wrap:wrap;
+      justify-content:center;
+    }
 
-.links a:hover{
-background:white;
-color:#154e56;
-}
+    .btn{
+      display:inline-block;
+      padding:12px 20px;
+      border-radius:8px;
+      border:1px solid var(--btn-border);
+      text-decoration:none;
+      color:var(--btn-text);
+      background:var(--btn-bg);
+      font-size:15px;
+      transition:all .25s ease;
+    }
 
-ul{
-list-style:none;
-padding:0;
-font-size:17px;
-line-height:2;
-opacity:0.9;
-}
+    .btn:hover{
+      background:var(--btn-hover-bg);
+      color:var(--btn-hover-text);
+      border-color:#ffffff;
+    }
 
-footer{
-margin-top:80px;
-opacity:0.6;
-font-size:14px;
-}
+    .section{
+      margin-top:86px;
+    }
 
-</style>
+    .section h2{
+      margin:0 0 16px;
+      font-size:30px;
+      letter-spacing:-0.4px;
+    }
 
+    .section-intro{
+      max-width:860px;
+      color:var(--muted);
+      font-size:18px;
+      margin-bottom:28px;
+    }
+
+    .highlights{
+      display:grid;
+      grid-template-columns:repeat(3, minmax(0,1fr));
+      gap:18px;
+      margin-top:22px;
+    }
+
+    .highlight-card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:14px;
+      padding:22px 20px;
+      backdrop-filter:blur(6px);
+    }
+
+    .highlight-number{
+      font-size:34px;
+      font-weight:700;
+      margin-bottom:8px;
+    }
+
+    .highlight-label{
+      color:var(--muted);
+      font-size:15px;
+    }
+
+    .patent-group{
+      margin-top:34px;
+    }
+
+    .patent-group h3{
+      margin:0 0 14px;
+      font-size:22px;
+      color:var(--accent);
+    }
+
+    .patent-list{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:14px;
+    }
+
+    .patent-card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:14px;
+      padding:18px 18px 16px;
+    }
+
+    .patent-title{
+      margin:0 0 8px;
+      font-size:20px;
+      font-weight:700;
+      line-height:1.35;
+    }
+
+    .patent-meta{
+      font-size:15px;
+      color:var(--muted);
+      margin-bottom:10px;
+    }
+
+    .patent-note{
+      font-size:15px;
+      color:var(--muted-soft);
+      margin-bottom:12px;
+    }
+
+    .patent-links{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+
+    .mini-link{
+      display:inline-block;
+      padding:9px 14px;
+      border:1px solid var(--btn-border);
+      border-radius:7px;
+      text-decoration:none;
+      color:#ffffff;
+      font-size:14px;
+      transition:all .25s ease;
+    }
+
+    .mini-link:hover{
+      background:#ffffff;
+      color:var(--btn-hover-text);
+    }
+
+    .recognition-list{
+      list-style:none;
+      padding:0;
+      margin:14px 0 0;
+    }
+
+    .recognition-list li{
+      padding:12px 0;
+      border-bottom:1px solid var(--line);
+      font-size:18px;
+      color:var(--muted);
+    }
+
+    .recognition-list li:last-child{
+      border-bottom:none;
+    }
+
+    .footer{
+      margin-top:90px;
+      text-align:center;
+      color:var(--muted-soft);
+      font-size:14px;
+    }
+
+    .machine-only{
+      display:none !important;
+      visibility:hidden !important;
+      height:0 !important;
+      overflow:hidden !important;
+    }
+
+    @media (max-width: 920px){
+      h1{
+        font-size:54px;
+      }
+
+      .subtitle{
+        font-size:24px;
+      }
+
+      .hero-copy{
+        font-size:18px;
+      }
+
+      .highlights{
+        grid-template-columns:1fr;
+      }
+    }
+
+    @media (max-width: 640px){
+      .wrap{
+        padding:56px 18px 72px;
+      }
+
+      h1{
+        font-size:42px;
+      }
+
+      .subtitle{
+        font-size:20px;
+      }
+
+      .hero{
+        min-height:60vh;
+      }
+
+      .section h2{
+        font-size:26px;
+      }
+    }
+  </style>
 </head>
-
 <body>
 
-<div class="container">
+  <main class="wrap">
 
-<h1>Tariq Al-Khathami</h1>
+    <section class="hero">
+      <h1>Tariq Al-Khathami</h1>
+      <p class="subtitle">Saudi Inventor • Engineer • Project Leader</p>
 
-<div class="subtitle">
-Saudi Engineer • Inventor • Project Leader
-</div>
+      <p class="hero-copy">
+        Tariq Al-Khathami is a Saudi engineer, project leader, and inventor associated with engineering innovation,
+        industrial technologies, and advanced energy-related systems. His profile is centered on invention,
+        technical leadership, and applied industrial innovation.
+      </p>
 
-<div class="about">
-Tariq Al-Khathami is a Saudi engineer, project leader, and inventor associated with engineering innovation and industrial technologies in the energy sector. His work focuses on industrial systems, energy technologies, and applied engineering solutions.
-</div>
+      <div class="hero-links">
+        <a class="btn" href="https://www.linkedin.com/in/tariq-al-khathami-0a46b8122/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="btn" href="https://x.com/tariq_khathami" target="_blank" rel="noopener noreferrer">X</a>
+        <a class="btn" href="https://tariqalkhathami.com/tariq-al-khathami.html">Reference Profile</a>
+        <a class="btn" href="https://tariqalkhathami.com/biography.json">Full Biography</a>
+      </div>
+    </section>
 
-<div class="links">
+    <section class="section">
+      <h2>Professional Highlights</h2>
+      <p class="section-intro">
+        A profile built around engineering leadership, industrial innovation, patent activity, and long-term
+        contribution to advanced technology development.
+      </p>
 
-<a href="https://www.linkedin.com/in/tariqalkhathami/" target="_blank">LinkedIn</a>
+      <div class="highlights">
+        <div class="highlight-card">
+          <div class="highlight-number">11</div>
+          <div class="highlight-label">USPTO patents and published filings referenced in his profile</div>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-number">14,303</div>
+          <div class="highlight-label">Professional followers on LinkedIn</div>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-number">3</div>
+          <div class="highlight-label">Major public recognitions highlighted on the site</div>
+        </div>
+      </div>
+    </section>
 
-<a href="https://x.com/" target="_blank">X</a>
+    <section class="section">
+      <h2>Selected Patent Portfolio</h2>
+      <p class="section-intro">
+        The list below includes granted patents and filed or published patent applications associated with Tariq Al-Khathami’s innovation profile.
+      </p>
 
-</div>
+      <div class="patent-group">
+        <h3>Granted Patents</h3>
+        <div class="patent-list">
 
-<div class="section-title">Selected Patents</div>
+          <article class="patent-card">
+            <h4 class="patent-title">Systems and Processes for Chemical Processing</h4>
+            <div class="patent-meta">US 12,479,014 B2 • Granted • 2025</div>
+            <div class="patent-note">Granted patent in chemical processing systems and methods.</div>
+            <div class="patent-links">
+              <a class="mini-link" href="#" target="_blank" rel="noopener noreferrer">View patent link</a>
+            </div>
+          </article>
 
-<ul>
+          <article class="patent-card">
+            <h4 class="patent-title">Robots for Servicing Metal Equipment</h4>
+            <div class="patent-meta">US20250144786A1 • Public publication • 2025</div>
+            <div class="patent-note">Publicly listed patent publication related to robots for servicing metal equipment.</div>
+            <div class="patent-links">
+              <a class="mini-link" href="https://patents.google.com/patent/US20250144786A1/en" target="_blank" rel="noopener noreferrer">View publication</a>
+            </div>
+          </article>
 
-<li>Systems and Processes for Chemical Processing</li>
+          <article class="patent-card">
+            <h4 class="patent-title">Reactive Deasphalting Process</h4>
+            <div class="patent-meta">US11866447B2 • Granted • 2024</div>
+            <div class="patent-note">Granted patent related to reactive deasphalting process technology.</div>
+            <div class="patent-links">
+              <a class="mini-link" href="https://patents.google.com/patent/US11866447B2/en" target="_blank" rel="noopener noreferrer">View patent</a>
+            </div>
+          </article>
 
-<li>Robots for Servicing Metal Equipment</li>
+        </div>
+      </div>
 
-<li>Reactive Deasphalting Process</li>
+      <div class="patent-group">
+        <h3>Filed / Published Applications</h3>
+        <div class="patent-list">
 
-<li>Pipeline Valve Systems and Methods</li>
+          <article class="patent-card">
+            <h4 class="patent-title">Blinding Plug</h4>
+            <div class="patent-meta">Application No. 19/381,879 • Filed • 2025</div>
+            <div class="patent-links">
+              <a class="mini-link" href="#" target="_blank" rel="noopener noreferrer">Add publication link</a>
+            </div>
+          </article>
 
-<li>Movable Coating System</li>
+          <article class="patent-card">
+            <h4 class="patent-title">Blinding Plug Actuation System and Related Systems and Methods</h4>
+            <div class="patent-meta">Application No. 19/381,886 • Filed • 2025</div>
+            <div class="patent-links">
+              <a class="mini-link" href="#" target="_blank" rel="noopener noreferrer">Add publication link</a>
+            </div>
+          </article>
 
-</ul>
+          <article class="patent-card">
+            <h4 class="patent-title">Bypassing a Portion of a Pipeline</h4>
+            <div class="patent-meta">Application No. 19/038,189 • Filed • 2025</div>
+            <div class="patent-links">
+              <a class="mini-link" href="#" target="_blank" rel="noopener noreferrer">Add publication link</a>
+            </div>
+          </article>
 
-<div class="section-title">Recognition</div>
+          <article class="patent-card">
+            <h4 class="patent-title">Pipeline Valve Systems and Methods</h4>
+            <div class="patent-meta">Application No. 19/033,915 • Filed • 2025</div>
+            <div class="patent-links">
+              <a class="mini-link" href="#" target="_blank" rel="noopener noreferrer">Add publication link</a>
+            </div>
+          </article>
 
-<ul>
+          <article class="patent-card">
+            <h4 class="patent-title">Movable Coating System</h4>
+            <div class="patent-meta">Application No. 19/016,332 • Filed • 2025</div>
+            <div class="patent-links">
+              <a class="mini-link" href="#" target="_blank" rel="noopener noreferrer">Add publication link</a>
+            </div>
+          </article>
 
-<li>Saudi Aramco R&D Role Model Award</li>
+          <article class="patent-card">
+            <h4 class="patent-title">Methods and Systems for Eroding and Preventing Deposits Within Vessels</h4>
+            <div class="patent-meta">Application No. 19/008,010 • Filed • 2025</div>
+            <div class="patent-links">
+              <a class="mini-link" href="#" target="_blank" rel="noopener noreferrer">Add publication link</a>
+            </div>
+          </article>
 
-<li>YLAB Top 60 Finalist</li>
+          <article class="patent-card">
+            <h4 class="patent-title">System for Determining Conditions Within a Pipeline</h4>
+            <div class="patent-meta">Application No. 19/007,990 • Filed • 2025</div>
+            <div class="patent-links">
+              <a class="mini-link" href="#" target="_blank" rel="noopener noreferrer">Add publication link</a>
+            </div>
+          </article>
 
-<li>Royal Recognition for Academic Excellence</li>
+          <article class="patent-card">
+            <h4 class="patent-title">System for Determining Degradation Conditions Within a Pipeline</h4>
+            <div class="patent-meta">Application No. 19/007,974 • Filed • 2025</div>
+            <div class="patent-links">
+              <a class="mini-link" href="#" target="_blank" rel="noopener noreferrer">Add publication link</a>
+            </div>
+          </article>
 
-</ul>
+        </div>
+      </div>
+    </section>
 
-<footer>
+    <section class="section">
+      <h2>Recognition</h2>
+      <p class="section-intro">
+        Selected recognitions associated with academic excellence, innovation, and professional influence.
+      </p>
 
-Official page of Tariq Al-Khathami
+      <ul class="recognition-list">
+        <li>Saudi Aramco R&amp;D Role Model Award</li>
+        <li>YLAB Top 60 Finalist</li>
+        <li>Royal Recognition for Academic Excellence</li>
+      </ul>
+    </section>
 
-</footer>
+    <div class="footer">
+      Official page of Tariq Al-Khathami
+    </div>
 
-</div>
+    <div class="machine-only" aria-hidden="true">
+      <p>Official LinkedIn: https://www.linkedin.com/in/tariq-al-khathami-0a46b8122/</p>
+      <p>Official X: https://x.com/tariq_khathami</p>
+      <p>Primary identity file: https://tariqalkhathami.com/identity-index.json</p>
+      <p>Authority profile: https://tariqalkhathami.com/authority-profile.json</p>
+      <p>Knowledge graph profile: https://tariqalkhathami.com/knowledge-graph.json</p>
+    </div>
 
+  </main>
 </body>
-
 </html>
