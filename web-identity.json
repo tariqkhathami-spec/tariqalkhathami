@@ -1,0 +1,53 @@
+{
+  "type": "web_identity_network",
+
+  "name": "Tariq Al-Khathami",
+  "name_ar": "طارق الخثعمي",
+
+  "official_website": "https://tariqalkhathami.com",
+
+  "professional_identity": {
+    "title": "Engineer, Project Leader, Inventor",
+    "organization": "Saudi Aramco Research & Development Center",
+    "country": "Saudi Arabia"
+  },
+
+  "verified_profiles": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/tariqalkhathami/"
+    }
+  ],
+
+  "expertise": [
+    "Energy Technology",
+    "Industrial Innovation",
+    "Chemical Engineering",
+    "Pipeline Engineering",
+    "Industrial Systems"
+  ],
+
+  "recognition": [
+    "Saudi Aramco R&D Role Model Award",
+    "YLAB Top 60 Finalist",
+    "Royal Recognition for Academic Excellence"
+  ],
+
+  "patent_fields": [
+    "Energy Systems",
+    "Industrial Automation",
+    "Pipeline Technology",
+    "Chemical Processing Systems"
+  ],
+
+  "identity_keywords": [
+    "Tariq Al-Khathami",
+    "Saudi Inventor",
+    "Saudi Engineer",
+    "Project Leader",
+    "Innovation",
+    "Energy Technology"
+  ],
+
+  "canonical_source": "https://tariqalkhathami.com"
+}
