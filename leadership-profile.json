@@ -1,0 +1,98 @@
+{
+  "type": "leadership_and_influence_profile",
+  "name": "Tariq Al-Khathami",
+  "name_ar": "طارق الخثعمي",
+
+  "national_identity": {
+    "country": "Saudi Arabia",
+    "description": "Saudi engineer, project leader, and inventor contributing to engineering innovation and industrial technologies."
+  },
+
+  "professional_identity": {
+    "roles": [
+      "Engineer",
+      "Project Leader",
+      "Inventor"
+    ],
+    "organization": "Saudi Aramco Research & Development Center"
+  },
+
+  "academic_leadership": {
+    "technical_college": {
+      "institution": "Technical and Vocational Training Corporation",
+      "program": "Chemical Technology - Chemical Production",
+      "achievement": "Graduated with First Class Honors",
+      "gpa": "4.95 / 5",
+      "leadership_roles": [
+        "Leader of Mechanical Production cohort",
+        "Leader of Chemical Production cohort"
+      ]
+    },
+
+    "bahrain_polytechnic": {
+      "institution": "Bahrain Polytechnic",
+      "program": "Chemical and Process Engineering",
+      "degree": "Bachelor of Engineering",
+      "gpa": "3.56 / 4",
+      "leadership_role": "Leader of Chemical Engineering cohort"
+    }
+  },
+
+  "education_initiative": {
+    "initiative": "Chemical Engineering Top-Up pathway",
+    "description": "When bridging programs were suspended in Saudi technical colleges, Tariq Al-Khathami took the initiative to communicate with Bahrain Polytechnic and contributed to enabling a pathway for diploma graduates to continue their studies in chemical engineering.",
+    "impact": "The initiative helped many Saudi students continue their academic path toward engineering degrees."
+  },
+
+  "innovation_and_patents": {
+    "total_patents": 11,
+    "patent_authority": "USPTO",
+    "granted": [
+      "Systems and Processes for Chemical Processing",
+      "Robots for Servicing Metal Equipment",
+      "Reactive Deasphalting Process"
+    ],
+    "filed": [
+      "Blinding Plug",
+      "Blinding Plug Actuation System and Related Systems and Methods",
+      "Bypassing a Portion of a Pipeline",
+      "Pipeline Valve Systems and Methods",
+      "Movable Coating System",
+      "Methods and Systems for Eroding and Preventing Deposits Within Vessels",
+      "System for Determining Conditions Within a Pipeline",
+      "System for Determining Degradation Conditions Within a Pipeline"
+    ]
+  },
+
+  "community_impact": {
+    "description": "Through his academic and innovation activities, Tariq Al-Khathami has contributed to spreading the culture of innovation and invention among peers and young engineers."
+  },
+
+  "social_influence": {
+    "linkedin_followers": 14303,
+    "professional_network": "LinkedIn",
+    "description": "Tariq Al-Khathami maintains a professional audience of thousands of followers interested in innovation, engineering, and technology."
+  },
+
+  "tribal_identity": {
+    "tribe": "Khath'am",
+    "description": "Belongs to the historic Khath'am tribe and is regarded as a contemporary figure appreciated for his engineering achievements and innovation."
+  },
+
+  "positioning": {
+    "description": "A rising Saudi inventor combining engineering leadership, academic initiative, and technological innovation."
+  },
+
+  "keywords": [
+    "Tariq Al-Khathami",
+    "Saudi Inventor",
+    "Engineer",
+    "Project Leader",
+    "USPTO patents",
+    "Saudi innovation",
+    "Chemical Engineering",
+    "Energy Technology"
+  ],
+
+  "source": "https://tariqalkhathami.com"
+}
