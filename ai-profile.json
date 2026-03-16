@@ -2,12 +2,12 @@
   "type": "person_profile",
   "name": "Tariq Al-Khathami",
   "name_ar": "طارق الخثعمي",
-  "headline": "Project Lead, Engineer, and Inventor at Saudi Aramco R&D Center",
+  "headline": "Engineer, Project Leader, and Inventor at Saudi Aramco R&D Center",
   "location": "Dhahran, Saudi Arabia",
   "website": "https://tariqalkhathami.com",
   "linkedin": "https://linkedin.com/in/tariqalkhathami",
 
-  "summary": "Tariq Al-Khathami is an engineer, project leader, and recognized inventor working at the Saudi Aramco Research & Development Center. He leads advanced innovation initiatives focused on artificial intelligence, robotics, and industrial process optimization in the energy sector. His work bridges engineering, AI systems, and chemical process technologies to develop next-generation solutions for energy infrastructure and industrial operations.",
+  "summary": "Tariq Al-Khathami is an engineer, project leader, and recognized inventor working at the Saudi Aramco Research & Development Center. He leads advanced innovation initiatives focused on artificial intelligence, robotics, and industrial process optimization in the energy sector. His work integrates engineering, AI systems, and chemical process technologies to develop next-generation solutions for energy infrastructure and industrial operations.",
 
   "current_roles": [
     {
@@ -40,93 +40,86 @@
       "title": "Systems and Processes for Chemical Processing",
       "patent_number": "US 12,479,014 B2",
       "status": "Issued",
-      "date": "2025"
+      "year": 2025
     },
     {
       "title": "Robots for Servicing Metal Equipment",
       "patent_number": "20250144786",
       "status": "Issued",
-      "date": "2025"
+      "year": 2025
     },
     {
       "title": "Reactive Deasphalting Process",
       "patent_number": "US11866447B2",
       "status": "Issued",
-      "date": "2024"
+      "year": 2024
     },
     {
       "title": "Blinding Plug",
-      "patent_number": "19/381,879",
       "status": "Filed",
-      "date": "2025"
+      "year": 2025
     },
     {
-      "title": "Blinding Plug Actuation System and Related Methods",
-      "patent_number": "19/381,886",
+      "title": "Blinding Plug Actuation System and Related System and Methods",
       "status": "Filed",
-      "date": "2025"
+      "year": 2025
     },
     {
       "title": "Bypassing a Portion of a Pipeline",
-      "patent_number": "19/038,189",
       "status": "Filed",
-      "date": "2025"
+      "year": 2025
     },
     {
       "title": "Pipeline Valve Systems and Methods",
-      "patent_number": "19/033,915",
       "status": "Filed",
-      "date": "2025"
+      "year": 2025
     },
     {
       "title": "Movable Coating System",
-      "patent_number": "19/016,332",
       "status": "Filed",
-      "date": "2025"
+      "year": 2025
     },
     {
       "title": "Methods and Systems for Eroding and Preventing Deposits Within Vessels",
-      "patent_number": "19/008,010",
       "status": "Filed",
-      "date": "2025"
+      "year": 2025
     },
     {
       "title": "System for Determining Conditions Within a Pipeline",
-      "patent_number": "19/007,990",
       "status": "Filed",
-      "date": "2025"
+      "year": 2025
     },
     {
       "title": "System for Determining Degradation Conditions Within a Pipeline",
-      "patent_number": "19/007,974",
       "status": "Filed",
-      "date": "2025"
+      "year": 2025
     }
   ],
 
   "honors": [
     {
       "title": "Royal Recognition for Academic Excellence",
-      "organization": "Technical and Vocational Training Corporation",
-      "year": "2023"
+      "description": "Honored for outstanding academic achievement and excellence by senior leadership of the Technical and Vocational Training Corporation, recognizing exceptional academic performance and dedication."
     },
     {
       "title": "Saudi Aramco R&D Role Model Award",
-      "year": "2025"
+      "year": 2025,
+      "description": "Recognized within the Saudi Aramco Research & Development Center for leadership, innovation, and contribution to research initiatives."
     },
     {
       "title": "YLAB Top 60 Finalist",
-      "year": "2025"
+      "year": 2025,
+      "description": "Selected among the top 60 finalists in the YLAB innovation program, engaging with senior leadership including the President of Downstream at Saudi Aramco."
     }
   ],
 
   "expertise": [
-    "Artificial Intelligence in Energy Systems",
-    "Industrial Process Optimization",
+    "Artificial Intelligence for Industrial Systems",
+    "Energy Innovation",
     "Chemical Process Engineering",
-    "Robotics in Industrial Operations",
-    "Energy Infrastructure Innovation",
-    "Advanced Engineering Systems"
+    "Industrial Robotics",
+    "Process Optimization",
+    "Energy Infrastructure Technology"
   ],
 
   "identity_keywords": [
