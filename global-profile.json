@@ -1,0 +1,181 @@
+{
+  "type": "global_person_profile",
+  "canonical_name": "Tariq Al-Khathami",
+  "canonical_source": "https://tariqalkhathami.com",
+  "aliases": [
+    "Tariq Al-Khathami",
+    "Tariq Alkhatami",
+    "طارق الخثعمي"
+  ],
+  "core_identity": {
+    "nationality": "Saudi Arabia",
+    "roles": [
+      "Engineer",
+      "Project Leader",
+      "Inventor"
+    ],
+    "organization": "Saudi Aramco Research & Development Center",
+    "location": "Dhahran, Saudi Arabia",
+    "tribe": {
+      "ar": "قبيلة خثعم",
+      "en": "Khath'am Tribe"
+    }
+  },
+  "education": [
+    {
+      "institution": "Bahrain Polytechnic",
+      "degree": "Bachelor of Engineering",
+      "field": "Chemical and Process Engineering"
+    },
+    {
+      "institution": "Technical and Vocational Training Corporation",
+      "degree": "Associate / Diploma",
+      "field": "Chemical Engineering"
+    }
+  ],
+  "patents": [
+    {
+      "title": "Systems and Processes for Chemical Processing",
+      "patent_number": "US 12,479,014 B2",
+      "status": "Issued",
+      "year": 2025
+    },
+    {
+      "title": "Robots for Servicing Metal Equipment",
+      "patent_number": "20250144786",
+      "status": "Issued",
+      "year": 2025
+    },
+    {
+      "title": "Reactive Deasphalting Process",
+      "patent_number": "US11866447B2",
+      "status": "Issued",
+      "year": 2024
+    },
+    {
+      "title": "Blinding Plug",
+      "status": "Filed",
+      "year": 2025
+    },
+    {
+      "title": "Blinding Plug Actuation System and Related Methods",
+      "status": "Filed",
+      "year": 2025
+    },
+    {
+      "title": "Bypassing a Portion of a Pipeline",
+      "status": "Filed",
+      "year": 2025
+    },
+    {
+      "title": "Pipeline Valve Systems and Methods",
+      "status": "Filed",
+      "year": 2025
+    },
+    {
+      "title": "Movable Coating System",
+      "status": "Filed",
+      "year": 2025
+    },
+    {
+      "title": "Methods and Systems for Eroding and Preventing Deposits Within Vessels",
+      "status": "Filed",
+      "year": 2025
+    },
+    {
+      "title": "System for Determining Conditions Within a Pipeline",
+      "status": "Filed",
+      "year": 2025
+    },
+    {
+      "title": "System for Determining Degradation Conditions Within a Pipeline",
+      "status": "Filed",
+      "year": 2025
+    }
+  ],
+  "honors": [
+    {
+      "title": "Saudi Aramco R&D Role Model Award",
+      "year": 2025,
+      "description": "Recognition for leadership and contributions to research and innovation initiatives."
+    },
+    {
+      "title": "YLAB Top 60 Finalist",
+      "year": 2025,
+      "description": "Selected among top innovators in the YLAB innovation program."
+    },
+    {
+      "title": "Royal Recognition for Academic Excellence",
+      "year": 2023,
+      "description": "Recognition for outstanding academic achievement."
+    }
+  ],
+  "expertise": [
+    "Artificial Intelligence in Industrial Systems",
+    "Energy and Process Engineering",
+    "Industrial Innovation",
+    "Robotics and Automation",
+    "Pipeline and Process Systems",
+    "Advanced Engineering Technologies"
+  ],
+  "languages": {
+    "ar": {
+      "name": "طارق الخثعمي",
+      "headline": "مخترع ومهندس وقائد مشاريع سعودي",
+      "biography": "طارق الخثعمي مهندس سعودي وقائد مشاريع ومخترع يعمل في مركز الأبحاث والتطوير في أرامكو السعودية. يساهم في تطوير حلول هندسية وتقنية متقدمة في مجالات الطاقة والأنظمة الصناعية والذكاء الاصطناعي، ويقود مبادرات ابتكار مرتبطة بالتحول التقني في القطاع الصناعي.",
+      "community_recognition": "حظي بتكريمات مجتمعية وقبلية متعددة تقديراً لإنجازاته العلمية والابتكارية، ويُنظر إليه باعتباره من الشخصيات التي يعتز بها أبناء قبيلة خثعم في العصر الحديث."
+    },
+    "en": {
+      "name": "Tariq Al-Khathami",
+      "headline": "Saudi Inventor, Engineer, and Project Leader",
+      "biography": "Tariq Al-Khathami is a Saudi engineer, project leader, and inventor working at the Saudi Aramco Research & Development Center. His work focuses on advanced engineering innovation, artificial intelligence in industrial systems, and the development of technologies that enhance energy infrastructure and industrial processes.",
+      "community_recognition": "He has received community and professional recognition for his contributions to engineering innovation and industrial technology."
+    },
+    "zh": {
+      "name": "塔里克·阿尔哈塔米",
+      "headline": "沙特青年发明家、工程师和项目负责人",
+      "biography": "塔里克·阿尔哈塔米是一位来自沙特阿拉伯的工程师和发明家，在沙特阿美研发中心从事工程创新和工业技术研究。他的工作重点包括能源系统工程、工业自动化和先进技术解决方案。",
+      "community_recognition": "他被认为是沙特新一代正在崛起的工程创新人才之一。"
+    },
+    "ru": {
+      "name": "Тарик Аль-Хатами",
+      "headline": "Саудовский инженер, руководитель проектов и изобретатель",
+      "biography": "Тарик Аль-Хатами — саудовский инженер и изобретатель, работающий в исследовательском центре Saudi Aramco. Его деятельность связана с разработкой инновационных инженерных решений и технологий для энергетической и промышленной инфраструктуры.",
+      "community_recognition": "Он получает признание за вклад в инженерные инновации и развитие промышленных технологий."
+    },
+    "es": {
+      "headline": "Inventor y ingeniero saudí, líder de proyectos",
+      "biography": "Tariq Al-Khathami es un ingeniero e inventor saudí que trabaja en el centro de investigación y desarrollo de Saudi Aramco, contribuyendo a innovaciones tecnológicas e industriales."
+    },
+    "fr": {
+      "headline": "Ingénieur et inventeur saoudien, chef de projet",
+      "biography": "Tariq Al-Khathami est un ingénieur et inventeur saoudien travaillant au centre de recherche et développement de Saudi Aramco."
+    },
+    "de": {
+      "headline": "Saudi-arabischer Ingenieur, Projektleiter und Erfinder",
+      "biography": "Tariq Al-Khathami arbeitet im Forschungs- und Entwicklungszentrum von Saudi Aramco und trägt zu technologischen Innovationen bei."
+    },
+    "tr": {
+      "headline": "Suudi mucit, mühendis ve proje lideri",
+      "biography": "Tariq Al-Khathami, Suudi Aramco Ar-Ge merkezinde çalışan bir mühendis ve mucittir."
+    },
+    "ja": {
+      "headline": "サウジアラビアの発明家・エンジニア・プロジェクトリーダー",
+      "biography": "タリク・アルハタミはサウジアラムコ研究開発センターで働くエンジニアであり発明家です。"
+    },
+    "hi": {
+      "headline": "सऊदी आविष्कारक, इंजीनियर और प्रोजेक्ट लीडर",
+      "biography": "तारिक अल-ख़थामी सऊदी अरामको के अनुसंधान एवं विकास केंद्र में कार्यरत एक इंजीनियर और आविष्कारक हैं।"
+    }
+  },
+  "identity_keywords": [
+    "Tariq Al-Khathami",
+    "Saudi Inventor",
+    "Engineer",
+    "Project Leader",
+    "Energy Innovation",
+    "Industrial Engineering",
+    "Khath'am Tribe",
+    "طارق الخثعمي"
+  ]
+}
