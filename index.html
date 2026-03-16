@@ -648,11 +648,19 @@
     .d5 { animation-delay: 0.7s; }
     .d6 { animation-delay: 0.85s; }
 
-    /* ── RTL ── */
+    /* ── Language visibility ── */
+    .ar-text,
+    .hero-name-ar,
+    .hero-title-ar,
+    .hero-bio-ar { display: none; }
+
+    /* ── RTL layout fixes ── */
     body.ar { font-family: 'Noto Sans Arabic', sans-serif; }
+    body.ar .hero-name-ar  { display: block; }
+    body.ar .hero-name-en  { display: none; }
     body.ar .sec-eyebrow { flex-direction: row-reverse; }
-    body.ar .hero-stats { flex-direction: row-reverse; }
-    body.ar .hstat { border-right: none; border-left: 1px solid var(--border); }
+    body.ar .hero-stats   { flex-direction: row-reverse; }
+    body.ar .hstat        { border-right: none; border-left: 1px solid var(--border); }
     body.ar .hstat:last-child { border-left: none; }
     body.ar .footer-inner { direction: rtl; }
     body.ar .footer-links { flex-direction: row-reverse; }
@@ -684,15 +692,15 @@
   <div class="site-mark">Tariq Al-Khathami</div>
   <div class="lang-toggle">
     <button class="lang-btn active" id="btn-en" onclick="setLang('en')">EN</button>
-    <button class="lang-btn"        id="btn-ar" onclick="setLang('ar')">عربي</button>
+    <button class="lang-btn" id="btn-ar" onclick="setLang('ar')">عربي</button>
   </div>
 </nav>
 
 <!-- HERO -->
 <section class="hero">
   <div class="hero-rule f d1">
-    <span class="hero-ornament en">Saudi Inventor</span>
-    <span class="hero-ornament ar" style="display:none;">مخترع سعودي</span>
+    <span class="hero-ornament en-text">Saudi Inventor</span>
+    <span class="hero-ornament ar-text">مخترع سعودي</span>
   </div>
 
   <div class="f d2">
@@ -702,27 +710,27 @@
 
   <div class="name-divider f d3"></div>
 
-  <p class="hero-title-en f d3">Engineer &nbsp;·&nbsp; Inventor &nbsp;·&nbsp; Project Leader</p>
-  <p class="hero-title-ar f d3">مهندس &nbsp;·&nbsp; مخترع &nbsp;·&nbsp; قائد مشاريع</p>
+  <p class="hero-title-en f d3 en-text">Engineer &nbsp;·&nbsp; Inventor &nbsp;·&nbsp; Project Leader</p>
+  <p class="hero-title-ar f d3 ar-text">مهندس &nbsp;·&nbsp; مخترع &nbsp;·&nbsp; قائد مشاريع</p>
 
-  <p class="hero-bio en f d4">Holder of USPTO-granted patents in chemical processing, robotics, and pipeline systems. Recognised by Saudi Aramco and honoured by the Royal Court for engineering excellence.</p>
-  <p class="hero-bio hero-bio-ar f d4">حاصل على براءات اختراع ممنوحة من USPTO في المعالجة الكيميائية والروبوتيات وأنظمة خطوط الأنابيب. مُكرَّم من أرامكو السعودية والديوان الملكي على التميز الهندسي.</p>
+  <p class="hero-bio f d4 en-text">Holder of USPTO-granted patents in chemical processing, robotics, and pipeline systems. Recognised by Saudi Aramco and honoured by the Royal Court for engineering excellence.</p>
+  <p class="hero-bio hero-bio-ar f d4 ar-text">حاصل على براءات اختراع ممنوحة من USPTO في المعالجة الكيميائية والروبوتيات وأنظمة خطوط الأنابيب. مُكرَّم من أرامكو السعودية والديوان الملكي على التميز الهندسي.</p>
 
   <div class="hero-stats f d5">
     <div class="hstat">
       <span class="hstat-num">11</span>
-      <span class="hstat-label en">USPTO Patents</span>
-      <span class="hstat-label hstat-label-ar ar" style="display:none;">براءة اختراع</span>
+      <span class="hstat-label en-text">USPTO Patents</span>
+      <span class="hstat-label hstat-label-ar ar-text">براءة اختراع</span>
     </div>
     <div class="hstat">
       <span class="hstat-num">14K</span>
-      <span class="hstat-label en">Followers</span>
-      <span class="hstat-label hstat-label-ar ar" style="display:none;">متابع</span>
+      <span class="hstat-label en-text">Followers</span>
+      <span class="hstat-label hstat-label-ar ar-text">متابع</span>
     </div>
     <div class="hstat">
       <span class="hstat-num">3</span>
-      <span class="hstat-label en">Major Awards</span>
-      <span class="hstat-label hstat-label-ar ar" style="display:none;">جوائز كبرى</span>
+      <span class="hstat-label en-text">Major Awards</span>
+      <span class="hstat-label hstat-label-ar ar-text">جوائز كبرى</span>
     </div>
   </div>
 
@@ -732,8 +740,8 @@
   </div>
 
   <div class="scroll-cue">
-    <span class="en">Scroll</span>
-    <span class="ar" style="display:none;">للأسفل</span>
+    <span class="en-text">Scroll</span>
+    <span class="ar-text">للأسفل</span>
     <div class="scroll-line"></div>
   </div>
 </section>
@@ -742,68 +750,68 @@
 <section class="content">
   <div class="wrap">
     <div class="sec-eyebrow">
-      <span class="sec-label en">Innovation Portfolio</span>
-      <span class="sec-label ar" style="display:none;">محفظة الابتكار</span>
+      <span class="sec-label en-text">Innovation Portfolio</span>
+      <span class="sec-label ar-text">محفظة الابتكار</span>
       <div class="sec-line"></div>
     </div>
 
-    <h2 class="sec-title-en">Patent <em>Portfolio</em></h2>
-    <h2 class="sec-title-ar">محفظة <span style="color:var(--gold2)">براءات الاختراع</span></h2>
+    <h2 class="sec-title-en en-text">Patent <em>Portfolio</em></h2>
+    <h2 class="sec-title-ar ar-text">محفظة <span style="color:var(--gold2)">براءات الاختراع</span></h2>
 
-    <p class="sec-sub en">Granted patents and filed applications with the United States Patent and Trademark Office, spanning chemical engineering, robotics, and industrial pipeline systems.</p>
-    <p class="sec-sub sec-sub-ar">براءات اختراع ممنوحة وطلبات مقدمة لدى مكتب براءات الاختراع والعلامات التجارية الأمريكي، تشمل الهندسة الكيميائية والروبوتيات وأنظمة خطوط الأنابيب الصناعية.</p>
+    <p class="sec-sub en-text">Granted patents and filed applications with the United States Patent and Trademark Office, spanning chemical engineering, robotics, and industrial pipeline systems.</p>
+    <p class="sec-sub sec-sub-ar ar-text">براءات اختراع ممنوحة وطلبات مقدمة لدى مكتب براءات الاختراع والعلامات التجارية الأمريكي، تشمل الهندسة الكيميائية والروبوتيات وأنظمة خطوط الأنابيب الصناعية.</p>
 
     <div class="patents-layout">
 
       <div class="patent-item">
-        <span class="patent-badge granted en">Granted · 2025</span>
-        <span class="patent-badge granted ar" style="display:none;">ممنوحة · 2025</span>
-        <p class="patent-title en">Systems and Processes for Chemical Processing</p>
-        <p class="patent-title patent-title-ar ar" style="display:none;">أنظمة وعمليات المعالجة الكيميائية</p>
+        <span class="patent-badge granted en-text">Granted · 2025</span>
+        <span class="patent-badge granted ar-text">ممنوحة · 2025</span>
+        <p class="patent-title en-text">Systems and Processes for Chemical Processing</p>
+        <p class="patent-title patent-title-ar ar-text">أنظمة وعمليات المعالجة الكيميائية</p>
         <span class="patent-num">US 12,479,014 B2</span>
-        <a class="patent-link en" href="https://patents.google.com/patent/US12479014B2" target="_blank" rel="noopener">View Patent</a>
-        <a class="patent-link ar" href="https://patents.google.com/patent/US12479014B2" target="_blank" rel="noopener" style="display:none;">عرض البراءة</a>
+        <a class="patent-link en-text" href="https://patents.google.com/patent/US12479014B2" target="_blank" rel="noopener">View Patent</a>
+        <a class="patent-link ar-text" href="https://patents.google.com/patent/US12479014B2" target="_blank" rel="noopener">عرض البراءة</a>
       </div>
 
       <div class="patent-item">
-        <span class="patent-badge granted en">Published · 2025</span>
-        <span class="patent-badge granted ar" style="display:none;">منشورة · 2025</span>
-        <p class="patent-title en">Robots for Servicing Metal Equipment</p>
-        <p class="patent-title patent-title-ar ar" style="display:none;">روبوتات لصيانة المعدات المعدنية</p>
+        <span class="patent-badge granted en-text">Published · 2025</span>
+        <span class="patent-badge granted ar-text">منشورة · 2025</span>
+        <p class="patent-title en-text">Robots for Servicing Metal Equipment</p>
+        <p class="patent-title patent-title-ar ar-text">روبوتات لصيانة المعدات المعدنية</p>
         <span class="patent-num">US20250144786A1</span>
-        <a class="patent-link en" href="https://patents.google.com/patent/US20250144786A1" target="_blank" rel="noopener">View Patent</a>
-        <a class="patent-link ar" href="https://patents.google.com/patent/US20250144786A1" target="_blank" rel="noopener" style="display:none;">عرض البراءة</a>
+        <a class="patent-link en-text" href="https://patents.google.com/patent/US20250144786A1" target="_blank" rel="noopener">View Patent</a>
+        <a class="patent-link ar-text" href="https://patents.google.com/patent/US20250144786A1" target="_blank" rel="noopener">عرض البراءة</a>
       </div>
 
       <div class="patent-item">
-        <span class="patent-badge granted en">Granted · 2024</span>
-        <span class="patent-badge granted ar" style="display:none;">ممنوحة · 2024</span>
-        <p class="patent-title en">Reactive Deasphalting Process</p>
-        <p class="patent-title patent-title-ar ar" style="display:none;">عملية إزالة الأسفلت التفاعلية</p>
+        <span class="patent-badge granted en-text">Granted · 2024</span>
+        <span class="patent-badge granted ar-text">ممنوحة · 2024</span>
+        <p class="patent-title en-text">Reactive Deasphalting Process</p>
+        <p class="patent-title patent-title-ar ar-text">عملية إزالة الأسفلت التفاعلية</p>
         <span class="patent-num">US11866447B2</span>
       </div>
 
       <div class="patent-item">
-        <span class="patent-badge filed en">Filed · 2025</span>
-        <span class="patent-badge filed ar" style="display:none;">مقدمة · 2025</span>
-        <p class="patent-title en">Blinding Plug Actuation System &amp; Methods</p>
-        <p class="patent-title patent-title-ar ar" style="display:none;">نظام تشغيل سدادة التعمية وطرقه</p>
+        <span class="patent-badge filed en-text">Filed · 2025</span>
+        <span class="patent-badge filed ar-text">مقدمة · 2025</span>
+        <p class="patent-title en-text">Blinding Plug Actuation System &amp; Methods</p>
+        <p class="patent-title patent-title-ar ar-text">نظام تشغيل سدادة التعمية وطرقه</p>
         <span class="patent-num">19/381,879 &amp; 19/381,886</span>
       </div>
 
       <div class="patent-item">
-        <span class="patent-badge filed en">Filed · 2025</span>
-        <span class="patent-badge filed ar" style="display:none;">مقدمة · 2025</span>
-        <p class="patent-title en">Pipeline Valve Systems &amp; Bypass Methods</p>
-        <p class="patent-title patent-title-ar ar" style="display:none;">أنظمة صمامات خطوط الأنابيب وطرق التحويل</p>
+        <span class="patent-badge filed en-text">Filed · 2025</span>
+        <span class="patent-badge filed ar-text">مقدمة · 2025</span>
+        <p class="patent-title en-text">Pipeline Valve Systems &amp; Bypass Methods</p>
+        <p class="patent-title patent-title-ar ar-text">أنظمة صمامات خطوط الأنابيب وطرق التحويل</p>
         <span class="patent-num">19/038,189 &amp; 19/033,915</span>
       </div>
 
       <div class="patent-item">
-        <span class="patent-badge filed en">Filed · 2025</span>
-        <span class="patent-badge filed ar" style="display:none;">مقدمة · 2025</span>
-        <p class="patent-title en">Pipeline Monitoring &amp; Deposit Prevention Systems</p>
-        <p class="patent-title patent-title-ar ar" style="display:none;">أنظمة مراقبة خطوط الأنابيب ومنع الرواسب</p>
+        <span class="patent-badge filed en-text">Filed · 2025</span>
+        <span class="patent-badge filed ar-text">مقدمة · 2025</span>
+        <p class="patent-title en-text">Pipeline Monitoring &amp; Deposit Prevention Systems</p>
+        <p class="patent-title patent-title-ar ar-text">أنظمة مراقبة خطوط الأنابيب ومنع الرواسب</p>
         <span class="patent-num">19/016,332 · 19/008,010 · 19/007,990 · 19/007,974</span>
       </div>
 
@@ -815,41 +823,41 @@
 <section class="content">
   <div class="wrap">
     <div class="sec-eyebrow">
-      <span class="sec-label en">Recognition</span>
-      <span class="sec-label ar" style="display:none;">التكريم</span>
+      <span class="sec-label en-text">Recognition</span>
+      <span class="sec-label ar-text">التكريم</span>
       <div class="sec-line"></div>
     </div>
 
-    <h2 class="sec-title-en">Awards &amp; <em>Honours</em></h2>
-    <h2 class="sec-title-ar">الجوائز <span style="color:var(--gold2)">والتكريمات</span></h2>
+    <h2 class="sec-title-en en-text">Awards &amp; <em>Honours</em></h2>
+    <h2 class="sec-title-ar ar-text">الجوائز <span style="color:var(--gold2)">والتكريمات</span></h2>
 
     <div class="awards-grid">
 
       <div class="award-card">
         <div class="award-num">01</div>
         <div class="award-line"></div>
-        <p class="award-title en">R&amp;D Role Model Award</p>
-        <p class="award-title award-title-ar ar" style="display:none;">جائزة نموذج القدوة في البحث والتطوير</p>
-        <p class="award-org en">Saudi Aramco</p>
-        <p class="award-org award-org-ar ar" style="display:none;">أرامكو السعودية</p>
+        <p class="award-title en-text">R&amp;D Role Model Award</p>
+        <p class="award-title award-title-ar ar-text">جائزة نموذج القدوة في البحث والتطوير</p>
+        <p class="award-org en-text">Saudi Aramco</p>
+        <p class="award-org award-org-ar ar-text">أرامكو السعودية</p>
       </div>
 
       <div class="award-card">
         <div class="award-num">02</div>
         <div class="award-line"></div>
-        <p class="award-title en">Top 60 Finalist</p>
-        <p class="award-title award-title-ar ar" style="display:none;">ضمن أفضل 60 مشارك</p>
-        <p class="award-org en">YLAB Programme</p>
-        <p class="award-org award-org-ar ar" style="display:none;">برنامج YLAB</p>
+        <p class="award-title en-text">Top 60 Finalist</p>
+        <p class="award-title award-title-ar ar-text">ضمن أفضل 60 مشارك</p>
+        <p class="award-org en-text">YLAB Programme</p>
+        <p class="award-org award-org-ar ar-text">برنامج YLAB</p>
       </div>
 
       <div class="award-card">
         <div class="award-num">03</div>
         <div class="award-line"></div>
-        <p class="award-title en">Royal Recognition for Academic Excellence</p>
-        <p class="award-title award-title-ar ar" style="display:none;">تكريم ملكي على التفوق الأكاديمي</p>
-        <p class="award-org en">Royal Court · Saudi Arabia</p>
-        <p class="award-org award-org-ar ar" style="display:none;">الديوان الملكي · المملكة العربية السعودية</p>
+        <p class="award-title en-text">Royal Recognition for Academic Excellence</p>
+        <p class="award-title award-title-ar ar-text">تكريم ملكي على التفوق الأكاديمي</p>
+        <p class="award-org en-text">Royal Court · Saudi Arabia</p>
+        <p class="award-org award-org-ar ar-text">الديوان الملكي · المملكة العربية السعودية</p>
       </div>
 
     </div>
@@ -860,10 +868,10 @@
 <footer>
   <div class="footer-inner">
     <div>
-      <p class="footer-name en">Tariq Al-Khathami</p>
-      <p class="footer-name footer-name-ar ar" style="display:none;">طارق الخثعمي</p>
-      <p class="footer-sub en">Saudi Inventor · Engineer · Project Leader</p>
-      <p class="footer-sub footer-sub-ar ar" style="display:none;">مخترع سعودي · مهندس · قائد مشاريع</p>
+      <p class="footer-name en-text">Tariq Al-Khathami</p>
+      <p class="footer-name footer-name-ar ar-text">طارق الخثعمي</p>
+      <p class="footer-sub en-text">Saudi Inventor · Engineer · Project Leader</p>
+      <p class="footer-sub footer-sub-ar ar-text">مخترع سعودي · مهندس · قائد مشاريع</p>
     </div>
     <div class="footer-links">
       <a class="btn-gold" href="https://www.linkedin.com/in/tariq-al-khathami-0a46b8122/" target="_blank" rel="noopener" style="font-size:10px; padding:11px 26px;">LinkedIn</a>
@@ -880,8 +888,16 @@
     document.documentElement.dir  = ar ? 'rtl' : 'ltr';
     document.getElementById('btn-en').classList.toggle('active', !ar);
     document.getElementById('btn-ar').classList.toggle('active',  ar);
-    document.querySelectorAll('.en').forEach(el => el.style.display = ar ? 'none' : '');
-    document.querySelectorAll('.ar').forEach(el => el.style.display = ar ? '' : 'none');
+
+    // Show/hide EN elements
+    document.querySelectorAll('.en-text').forEach(el => {
+      el.style.display = ar ? 'none' : '';
+    });
+
+    // Show/hide AR elements
+    document.querySelectorAll('.ar-text').forEach(el => {
+      el.style.display = ar ? '' : 'none';
+    });
   }
 </script>
 
