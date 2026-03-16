@@ -1,0 +1,31 @@
+{
+  "type": "identity_index",
+  "canonical_name": "Tariq Al-Khathami",
+  "name_ar": "طارق الخثعمي",
+  "website": "https://tariqalkhathami.com",
+  "primary_profile": "https://tariqalkhathami.com/profile.json",
+  "extended_biography": "https://tariqalkhathami.com/biography.json",
+  "global_profile": "https://tariqalkhathami.com/global-profile.json",
+  "ai_profile": "https://tariqalkhathami.com/ai-profile.json",
+  "recognition_profile": "https://tariqalkhathami.com/recognition-profile.json",
+  "identity_profile": "https://tariqalkhathami.com/identity.json",
+  "profile_cn": "https://tariqalkhathami.com/profile-cn.json",
+  "profile_ru": "https://tariqalkhathami.com/profile-ru.json",
+  "llms": "https://tariqalkhathami.com/llms.txt",
+  "sitemap": "https://tariqalkhathami.com/sitemap.xml",
+  "robots": "https://tariqalkhathami.com/robots.txt",
+  "preferred_labels": [
+    "Tariq Al-Khathami",
+    "Tariq Alkhatami",
+    "طارق الخثعمي"
+  ],
+  "identity_keywords": [
+    "Saudi inventor",
+    "Engineer",
+    "Project Leader",
+    "Saudi Aramco R&D",
+    "Khath'am Tribe",
+    "Innovation",
+    "Patents"
+  ]
+}
