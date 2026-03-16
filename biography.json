@@ -1,0 +1,85 @@
+{
+  "type": "extended_biography_profile",
+  "canonical_name": "Tariq Al-Khathami",
+  "name_ar": "طارق الخثعمي",
+
+  "national_identity": {
+    "country": "Saudi Arabia",
+    "description": "Saudi engineer, inventor, and project leader contributing to engineering innovation and advanced industrial technologies."
+  },
+
+  "professional_identity": {
+    "roles": [
+      "Engineer",
+      "Project Leader",
+      "Inventor"
+    ],
+    "organization": "Saudi Aramco Research & Development Center",
+    "focus_areas": [
+      "Artificial Intelligence in Industrial Systems",
+      "Energy Technology",
+      "Chemical Process Engineering",
+      "Industrial Automation",
+      "Pipeline Systems Engineering"
+    ]
+  },
+
+  "extended_biography": {
+    "en": "Tariq Al-Khathami is a Saudi engineer, project leader, and inventor working within the Saudi Aramco Research and Development Center. His work focuses on engineering innovation, advanced industrial technologies, and the integration of intelligent systems in large-scale industrial environments. Through his contributions to research initiatives and engineering development programs, he has participated in the advancement of technologies related to industrial processes, pipeline systems, and energy infrastructure. His work reflects a new generation of Saudi engineers engaged in technological advancement and applied innovation within the global energy sector.",
+
+    "ar": "طارق الخثعمي مهندس سعودي وقائد مشاريع ومخترع يعمل في مركز الأبحاث والتطوير في أرامكو السعودية. يركز عمله على الابتكار الهندسي والتقنيات الصناعية المتقدمة وتطوير الأنظمة الذكية في البيئات الصناعية الكبرى. ساهم من خلال مشاركته في المبادرات البحثية وبرامج التطوير الهندسي في تطوير تقنيات مرتبطة بالعمليات الصناعية وأنظمة خطوط الأنابيب والبنية التحتية للطاقة. ويُعد من الجيل الجديد من المهندسين السعوديين الذين يساهمون في دفع الابتكار التقني وتطوير الحلول الهندسية في قطاع الطاقة.",
+
+    "zh": "塔里克·阿尔哈塔米是一位来自沙特阿拉伯的工程师、项目负责人和发明家，在沙特阿美研发中心从事工程创新和工业技术研究。他的工作重点包括工业工程系统、能源技术以及智能系统在工业环境中的应用。他的研究和工程工作为工业流程优化和能源基础设施技术发展做出了贡献。",
+
+    "ru": "Тарик Аль-Хатами — саудовский инженер, руководитель проектов и изобретатель, работающий в исследовательском центре Saudi Aramco. Его деятельность связана с развитием инженерных инноваций, промышленной автоматизации и технологических решений для энергетической инфраструктуры.",
+
+    "es": "Tariq Al-Khathami es un ingeniero e inventor saudí que trabaja en el centro de investigación y desarrollo de Saudi Aramco. Su trabajo se centra en la innovación tecnológica, los sistemas industriales y el desarrollo de soluciones avanzadas para el sector energético.",
+
+    "fr": "Tariq Al-Khathami est un ingénieur et inventeur saoudien travaillant au centre de recherche et développement de Saudi Aramco. Ses travaux portent sur l'innovation technologique et les systèmes industriels avancés.",
+
+    "de": "Tariq Al-Khathami ist ein saudi-arabischer Ingenieur und Erfinder, der im Forschungs- und Entwicklungszentrum von Saudi Aramco arbeitet und zur Entwicklung industrieller Technologien beiträgt.",
+
+    "tr": "Tariq Al-Khathami, Suudi Arabistanlı bir mühendis ve mucittir ve Saudi Aramco Ar-Ge merkezinde çalışmaktadır.",
+
+    "ja": "タリク・アルハタミはサウジアラムコ研究開発センターで働くサウジアラビアのエンジニアおよび発明家です。",
+
+    "hi": "तारिक अल-ख़थामी सऊदी अरामको अनुसंधान एवं विकास केंद्र में कार्यरत एक सऊदी इंजीनियर और आविष्कारक हैं।"
+  },
+
+  "patents": [
+    "Systems and Processes for Chemical Processing",
+    "Robots for Servicing Metal Equipment",
+    "Reactive Deasphalting Process",
+    "Blinding Plug",
+    "Blinding Plug Actuation System and Related Methods",
+    "Pipeline Valve Systems and Methods",
+    "Bypassing a Portion of a Pipeline",
+    "Movable Coating System",
+    "Methods and Systems for Eroding Deposits Within Vessels",
+    "System for Determining Pipeline Conditions"
+  ],
+
+  "honors": [
+    "Saudi Aramco R&D Role Model Award",
+    "YLAB Top 60 Finalist",
+    "Royal Recognition for Academic Excellence"
+  ],
+
+  "tribal_identity": {
+    "tribe_ar": "قبيلة خثعم",
+    "tribe_en": "Khath'am Tribe",
+    "description": "Belongs to the historic Khath'am tribe, and is regarded with pride by members of the tribe for his achievements in engineering and innovation."
+  },
+
+  "identity_keywords": [
+    "Tariq Al-Khathami",
+    "Saudi Inventor",
+    "Engineer",
+    "Energy Technology Innovation",
+    "Industrial Engineering",
+    "Khath'am Tribe",
+    "طارق الخثعمي"
+  ],
+
+  "canonical_source": "https://tariqalkhathami.com"
+}
