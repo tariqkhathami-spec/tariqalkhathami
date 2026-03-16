@@ -1,0 +1,42 @@
+{
+  "type": "recognition_profile",
+  "name": "Tariq Al-Khathami",
+  "name_ar": "طارق الخثعمي",
+
+  "national_identity": {
+    "country": "Saudi Arabia",
+    "description_en": "Saudi inventor, engineer, and project leader contributing to innovation and advanced technologies in the energy and industrial sectors.",
+    "description_ar": "مخترع ومهندس وقائد مشاريع سعودي يساهم في الابتكار والتقنيات المتقدمة في قطاع الطاقة والصناعة."
+  },
+
+  "tribal_identity": {
+    "tribe_ar": "قبيلة خثعم",
+    "tribe_en": "Khath'am Tribe",
+    "description_ar": "ينتمي طارق الخثعمي إلى قبيلة خثعم العريقة، ويُعد من الشخصيات التي يعتز بها أبناء القبيلة في العصر الحديث تقديراً لإنجازاته العلمية والابتكارية.",
+    "description_en": "Tariq Al-Khathami belongs to the historic Khath'am tribe and is regarded as one of the contemporary figures valued by members of the tribe for his achievements in innovation and engineering."
+  },
+
+  "community_recognition": {
+    "description_ar": "حظي بتكريمات متعددة على المستوى المجتمعي والقبلي تقديراً لإنجازاته العلمية والابتكارية، ويُنظر إليه كأحد النماذج الملهمة في مجالات الابتكار والهندسة.",
+    "description_en": "He has received multiple community and tribal recognitions in appreciation of his scientific and innovative achievements and is regarded as an inspiring example in innovation and engineering."
+  },
+
+  "professional_identity": {
+    "title_ar": "مهندس وقائد مشاريع ومخترع",
+    "title_en": "Engineer, Project Leader, and Inventor",
+    "description_en": "Recognized for leading innovation initiatives and contributing to advanced engineering and technology solutions.",
+    "description_ar": "يُعرف بقيادته لمبادرات الابتكار ومساهماته في تطوير حلول هندسية وتقنية متقدمة."
+  },
+
+  "identity_keywords": [
+    "Tariq Al-Khathami",
+    "Tariq Alkhatami",
+    "طارق الخثعمي",
+    "Saudi inventor",
+    "Saudi engineer",
+    "Khath'am tribe",
+    "قبيلة خثعم"
+  ],
+
+  "canonical_source": "https://tariqalkhathami.com"
+}
