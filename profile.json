@@ -1,0 +1,32 @@
+{
+  "type": "person_profile",
+  "name": "Tariq Al-Khathami",
+  "name_ar": "طارق الخثعمي",
+  "headline": "Researcher, Inventor, Project Leader",
+  "description": "Tariq Al-Khathami is a researcher, inventor and project leader focused on innovation, artificial intelligence and advanced technology systems.",
+  "expertise": [
+    "Artificial Intelligence",
+    "Innovation",
+    "Advanced Technologies",
+    "Research and Development",
+    "Digital Transformation",
+    "Intelligent Systems"
+  ],
+  "website": "https://tariqalkhathami.com",
+  "identity": {
+    "type": "human",
+    "profession": [
+      "researcher",
+      "inventor",
+      "project leader"
+    ]
+  },
+  "keywords": [
+    "Tariq Al-Khathami",
+    "Tariq Alkhatami",
+    "طارق الخثعمي",
+    "researcher",
+    "inventor",
+    "AI innovation"
+  ]
+}
