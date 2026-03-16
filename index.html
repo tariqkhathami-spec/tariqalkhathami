@@ -1,84 +1,161 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tariq Al-Khathami | طارق الخثعمي</title>
-  <meta name="description" content="Official page of Tariq Al-Khathami — Saudi inventor, engineer, and project leader. براءات اختراع أمريكية · تكريم ملكي · أرامكو السعودية"/>
-  <meta name="keywords" content="Tariq Al-Khathami, طارق الخثعمي, Saudi Inventor, USPTO Patents, Engineer, Aramco"/>
-  <meta name="author" content="Tariq Al-Khathami"/>
-  <link rel="canonical" href="https://tariqalkhathami.com/"/>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600&family=DM+Sans:wght@300;400;500&family=Noto+Serif+Arabic:wght@300;400;700&family=Noto+Sans+Arabic:wght@300;400;500&display=swap" rel="stylesheet">
+  <meta name="description" content="Official page of Tariq Al-Khathami — Saudi inventor, engineer, and project leader." />
+  <meta name="author" content="Tariq Al-Khathami" />
+  <link rel="canonical" href="https://tariqalkhathami.com/" />
+
+  <meta property="og:title" content="Tariq Al-Khathami | طارق الخثعمي" />
+  <meta property="og:description" content="Official page of Tariq Al-Khathami — Saudi inventor, engineer, and project leader." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://tariqalkhathami.com/" />
+  <meta property="og:image" content="https://tariqalkhathami.com/og-image.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Tariq Al-Khathami | طارق الخثعمي" />
+  <meta name="twitter:description" content="Official page of Tariq Al-Khathami — Saudi inventor, engineer, and project leader." />
+  <meta name="twitter:image" content="https://tariqalkhathami.com/og-image.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600&family=DM+Sans:wght@300;400;500&family=Noto+Serif+Arabic:wght@300;400;700&family=Noto+Sans+Arabic:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
 
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Person","name":"Tariq Al-Khathami","alternateName":["طارق الخثعمي"],"url":"https://tariqalkhathami.com","jobTitle":["Saudi Inventor","Engineer","Project Leader"],"sameAs":["https://www.linkedin.com/in/tariq-al-khathami-0a46b8122/","https://x.com/tariq_khathami"]}
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Tariq Al-Khathami",
+    "alternateName": ["طارق الخثعمي"],
+    "url": "https://tariqalkhathami.com/",
+    "jobTitle": ["Saudi Inventor", "Engineer", "Project Leader"],
+    "sameAs": [
+      "https://www.linkedin.com/in/tariq-al-khathami-0a46b8122/",
+      "https://x.com/tariq_khathami"
+    ]
+  }
   </script>
 
   <style>
     :root {
-      --bg:      #06090c;
-      --bg2:     #0b1118;
+      --bg: #06090c;
+      --bg2: #0b1118;
       --surface: #0f1820;
-      --border:  rgba(184,152,82,0.18);
-      --border2: rgba(184,152,82,0.35);
-      --gold:    #c9a84c;
-      --gold2:   #e8c97a;
-      --text:    #e8e2d6;
-      --muted:   rgba(232,226,214,0.6);
-      --soft:    rgba(232,226,214,0.35);
+      --border: rgba(184, 152, 82, 0.18);
+      --border2: rgba(184, 152, 82, 0.35);
+      --gold: #c9a84c;
+      --gold2: #e8c97a;
+      --text: #e8e2d6;
+      --muted: rgba(232, 226, 214, 0.68);
+      --soft: rgba(232, 226, 214, 0.38);
+      --focus: rgba(232, 201, 122, 0.45);
+      --max: 1160px;
+      --radius: 22px;
     }
 
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
 
     body {
       background: var(--bg);
       color: var(--text);
-      font-family: 'DM Sans', sans-serif;
+      font-family: "DM Sans", sans-serif;
       font-weight: 300;
       overflow-x: hidden;
+      min-height: 100vh;
     }
 
     body::before {
-      content: '';
+      content: "";
       position: fixed;
       inset: 0;
       background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
-      opacity: 0.025;
+      opacity: 0.022;
       pointer-events: none;
       z-index: 9999;
     }
 
     body::after {
-      content: '';
+      content: "";
       position: fixed;
-      top: -20vh; left: 50%;
+      top: -20vh;
+      left: 50%;
       transform: translateX(-50%);
-      width: 800px; height: 800px;
-      background: radial-gradient(ellipse, rgba(201,168,76,0.055) 0%, transparent 70%);
+      width: 800px;
+      height: 800px;
+      background: radial-gradient(ellipse, rgba(201, 168, 76, 0.055) 0%, transparent 70%);
       pointer-events: none;
       z-index: 0;
     }
 
-    /* ── NAV ── */
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a,
+    button {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    a:focus-visible,
+    button:focus-visible {
+      outline: 2px solid var(--gold2);
+      outline-offset: 3px;
+      box-shadow: 0 0 0 6px var(--focus);
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 48px;
+    }
+
+    /* NAV */
     .lang-bar {
       position: fixed;
-      top: 0; left: 0; right: 0;
+      top: 0;
+      left: 0;
+      right: 0;
       z-index: 200;
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 18px 48px;
-      background: rgba(6,9,12,0.8);
+      background: rgba(6, 9, 12, 0.8);
       backdrop-filter: blur(20px);
       border-bottom: 1px solid var(--border);
     }
 
     .site-mark {
-      font-family: 'Cinzel', serif;
+      font-family: "Cinzel", serif;
       font-size: 12px;
       font-weight: 600;
       letter-spacing: 3px;
@@ -89,9 +166,9 @@
     .lang-toggle {
       display: flex;
       gap: 2px;
-      background: rgba(255,255,255,0.04);
+      background: rgba(255, 255, 255, 0.04);
       border: 1px solid var(--border);
-      border-radius: 100px;
+      border-radius: 999px;
       padding: 4px;
     }
 
@@ -100,18 +177,21 @@
       background: transparent;
       color: var(--muted);
       cursor: pointer;
-      padding: 6px 18px;
-      border-radius: 100px;
+      padding: 7px 18px;
+      border-radius: 999px;
       font-size: 11px;
-      font-family: 'DM Sans', sans-serif;
+      font-family: "DM Sans", sans-serif;
       font-weight: 500;
       letter-spacing: 1px;
-      transition: all 0.25s;
+      transition: all 0.25s ease;
     }
 
-    .lang-btn.active { background: var(--gold); color: var(--bg); }
+    .lang-btn.active {
+      background: var(--gold);
+      color: var(--bg);
+    }
 
-    /* ── HERO ── */
+    /* HERO */
     .hero {
       position: relative;
       z-index: 1;
@@ -133,7 +213,7 @@
 
     .hero-rule::before,
     .hero-rule::after {
-      content: '';
+      content: "";
       width: 100px;
       height: 1px;
       background: linear-gradient(to right, transparent, var(--gold));
@@ -144,35 +224,42 @@
     }
 
     .hero-ornament {
-      font-family: 'Cinzel', serif;
+      font-family: "Cinzel", serif;
       font-size: 10px;
       letter-spacing: 5px;
       text-transform: uppercase;
       color: var(--gold);
     }
 
+    .hero-name-en,
+    .hero-name-ar {
+      line-height: 0.95;
+      color: var(--text);
+    }
+
     .hero-name-en {
-      font-family: 'Cormorant Garamond', serif;
+      font-family: "Cormorant Garamond", serif;
       font-size: clamp(68px, 10vw, 136px);
       font-weight: 300;
-      line-height: 0.92;
       letter-spacing: -2px;
-      color: var(--text);
     }
 
-    .hero-name-en em { font-style: italic; color: var(--gold2); }
+    .hero-name-en em {
+      font-style: italic;
+      color: var(--gold2);
+    }
 
     .hero-name-ar {
-      font-family: 'Noto Serif Arabic', serif;
+      font-family: "Noto Serif Arabic", serif;
       font-size: clamp(52px, 8vw, 110px);
       font-weight: 300;
-      line-height: 1.15;
-      color: var(--text);
       direction: rtl;
-      display: none;
     }
 
-    .hero-name-ar em { font-style: normal; color: var(--gold2); }
+    .hero-name-ar em {
+      font-style: normal;
+      color: var(--gold2);
+    }
 
     .name-divider {
       width: 1px;
@@ -181,80 +268,84 @@
       margin: 40px auto;
     }
 
+    .hero-title-en,
+    .hero-title-ar {
+      color: var(--gold);
+    }
+
     .hero-title-en {
-      font-family: 'Cinzel', serif;
+      font-family: "Cinzel", serif;
       font-size: 12px;
       font-weight: 400;
       letter-spacing: 6px;
-      color: var(--gold);
       text-transform: uppercase;
     }
 
     .hero-title-ar {
-      font-family: 'Noto Sans Arabic', sans-serif;
+      font-family: "Noto Sans Arabic", sans-serif;
       font-size: 15px;
-      color: var(--gold);
       letter-spacing: 1px;
       direction: rtl;
-      display: none;
     }
 
     .hero-bio {
-      max-width: 580px;
+      max-width: 640px;
       margin: 32px auto 0;
       font-size: 17px;
       line-height: 1.9;
       color: var(--muted);
-      font-weight: 300;
     }
 
     .hero-bio-ar {
-      font-family: 'Noto Serif Arabic', serif;
+      font-family: "Noto Serif Arabic", serif;
       direction: rtl;
       text-align: right;
-      max-width: 640px;
-      display: none;
+      max-width: 700px;
     }
 
     .hero-stats {
       display: flex;
       margin-top: 64px;
       border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.015);
     }
 
     .hstat {
       padding: 30px 52px;
       text-align: center;
-      border-right: 1px solid var(--border);
+      border-inline-end: 1px solid var(--border);
     }
 
-    .hstat:last-child { border-right: none; }
+    .hstat:last-child {
+      border-inline-end: none;
+    }
 
     .hstat-num {
-      font-family: 'Cormorant Garamond', serif;
+      display: block;
+      font-family: "Cormorant Garamond", serif;
       font-size: 56px;
       font-weight: 300;
       color: var(--gold2);
       line-height: 1;
-      display: block;
     }
 
     .hstat-label {
-      font-family: 'Cinzel', serif;
+      display: block;
+      margin-top: 10px;
+      color: var(--soft);
+    }
+
+    .hstat-label-en {
+      font-family: "Cinzel", serif;
       font-size: 9px;
       letter-spacing: 3px;
       text-transform: uppercase;
-      color: var(--soft);
-      margin-top: 10px;
-      display: block;
     }
 
     .hstat-label-ar {
-      font-family: 'Noto Sans Arabic', sans-serif;
+      font-family: "Noto Sans Arabic", sans-serif;
       font-size: 11px;
-      letter-spacing: 0;
       direction: rtl;
-      display: none;
     }
 
     .hero-links {
@@ -265,22 +356,28 @@
       justify-content: center;
     }
 
-    .btn-gold {
+    .btn-gold,
+    .btn-ghost {
       text-decoration: none;
-      border: 1px solid var(--gold);
-      color: var(--gold);
       padding: 14px 36px;
       font-size: 11px;
-      font-family: 'Cinzel', serif;
+      font-family: "Cinzel", serif;
       letter-spacing: 2.5px;
       text-transform: uppercase;
-      transition: all 0.3s;
+      transition: all 0.3s ease;
       position: relative;
       overflow: hidden;
+      border-radius: 999px;
+    }
+
+    .btn-gold {
+      border: 1px solid var(--gold);
+      color: var(--gold);
+      z-index: 1;
     }
 
     .btn-gold::before {
-      content: '';
+      content: "";
       position: absolute;
       inset: 0;
       background: var(--gold);
@@ -289,22 +386,23 @@
       z-index: -1;
     }
 
-    .btn-gold:hover { color: var(--bg); }
-    .btn-gold:hover::before { transform: translateX(0); }
-
-    .btn-ghost {
-      text-decoration: none;
-      border: 1px solid var(--border2);
-      color: var(--muted);
-      padding: 14px 36px;
-      font-size: 11px;
-      font-family: 'Cinzel', serif;
-      letter-spacing: 2.5px;
-      text-transform: uppercase;
-      transition: all 0.3s;
+    .btn-gold:hover {
+      color: var(--bg);
     }
 
-    .btn-ghost:hover { border-color: var(--gold); color: var(--gold); }
+    .btn-gold:hover::before {
+      transform: translateX(0);
+    }
+
+    .btn-ghost {
+      border: 1px solid var(--border2);
+      color: var(--muted);
+    }
+
+    .btn-ghost:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+    }
 
     .scroll-cue {
       position: absolute;
@@ -318,7 +416,7 @@
     }
 
     .scroll-cue span {
-      font-family: 'Cinzel', serif;
+      font-family: "Cinzel", serif;
       font-size: 9px;
       letter-spacing: 3px;
       text-transform: uppercase;
@@ -332,18 +430,11 @@
       animation: pulse 2s ease-in-out infinite;
     }
 
-    @keyframes pulse {
-      0%,100% { opacity: 0.3; }
-      50%      { opacity: 1; }
-    }
-
-    /* ── SECTIONS ── */
-    .wrap { max-width: 1160px; margin: 0 auto; padding: 0 48px; }
-
+    /* CONTENT SECTIONS */
     section.content {
-      padding: 120px 0;
       position: relative;
       z-index: 1;
+      padding: 120px 0;
       border-top: 1px solid var(--border);
     }
 
@@ -355,7 +446,7 @@
     }
 
     .sec-label {
-      font-family: 'Cinzel', serif;
+      font-family: "Cinzel", serif;
       font-size: 9px;
       letter-spacing: 5px;
       text-transform: uppercase;
@@ -369,50 +460,51 @@
       background: var(--border2);
     }
 
+    .sec-title-en,
+    .sec-title-ar {
+      margin-bottom: 20px;
+      color: var(--text);
+    }
+
     .sec-title-en {
-      font-family: 'Cormorant Garamond', serif;
+      font-family: "Cormorant Garamond", serif;
       font-size: clamp(40px, 5vw, 68px);
       font-weight: 300;
       line-height: 1.05;
       letter-spacing: -1px;
-      color: var(--text);
-      margin-bottom: 20px;
     }
 
-    .sec-title-en em { font-style: italic; color: var(--gold2); }
+    .sec-title-en em {
+      font-style: italic;
+      color: var(--gold2);
+    }
 
     .sec-title-ar {
-      font-family: 'Noto Serif Arabic', serif;
+      font-family: "Noto Serif Arabic", serif;
       font-size: clamp(34px, 4.5vw, 58px);
       font-weight: 300;
-      color: var(--text);
       direction: rtl;
       text-align: right;
-      margin-bottom: 20px;
-      display: none;
     }
 
     .sec-sub {
+      max-width: 560px;
       font-size: 16px;
-      color: var(--muted);
       line-height: 1.85;
-      max-width: 520px;
-      font-weight: 300;
+      color: var(--muted);
       margin-bottom: 0;
     }
 
     .sec-sub-ar {
-      font-family: 'Noto Sans Arabic', sans-serif;
+      font-family: "Noto Sans Arabic", sans-serif;
       direction: rtl;
       text-align: right;
-      max-width: 560px;
-      display: none;
     }
 
-    /* ── PATENTS ── */
+    /* PATENTS */
     .patents-layout {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: repeat(3, 1fr);
       gap: 1px;
       background: var(--border);
       border: 1px solid var(--border);
@@ -422,88 +514,127 @@
     .patent-item {
       background: var(--bg2);
       padding: 38px 32px;
-      transition: background 0.3s;
+      transition: background 0.3s ease;
       display: flex;
       flex-direction: column;
       gap: 14px;
       position: relative;
       overflow: hidden;
+      min-height: 260px;
     }
 
     .patent-item::before {
-      content: '';
+      content: "";
       position: absolute;
-      top: 0; left: 0;
-      width: 2px; height: 0;
+      top: 0;
+      inset-inline-start: 0;
+      width: 2px;
+      height: 0;
       background: var(--gold);
       transition: height 0.4s ease;
     }
 
-    .patent-item:hover { background: var(--surface); }
-    .patent-item:hover::before { height: 100%; }
+    .patent-item:hover {
+      background: var(--surface);
+    }
+
+    .patent-item:hover::before {
+      height: 100%;
+    }
 
     .patent-badge {
       display: inline-flex;
       align-items: center;
       gap: 7px;
-      font-family: 'Cinzel', serif;
+      width: fit-content;
+      font-family: "Cinzel", serif;
       font-size: 9px;
       letter-spacing: 2px;
       text-transform: uppercase;
     }
 
     .patent-badge::before {
-      content: '';
-      width: 5px; height: 5px;
+      content: "";
+      width: 5px;
+      height: 5px;
       border-radius: 50%;
       flex-shrink: 0;
     }
 
-    .granted { color: var(--gold2); }
-    .granted::before { background: var(--gold2); }
-    .filed { color: var(--soft); }
-    .filed::before { background: var(--soft); }
+    .granted {
+      color: var(--gold2);
+    }
+
+    .granted::before {
+      background: var(--gold2);
+    }
+
+    .published {
+      color: #d7bc74;
+    }
+
+    .published::before {
+      background: #d7bc74;
+    }
+
+    .filed {
+      color: var(--soft);
+    }
+
+    .filed::before {
+      background: var(--soft);
+    }
 
     .patent-title {
-      font-family: 'Cormorant Garamond', serif;
+      flex: 1;
+      color: var(--text);
+    }
+
+    .patent-title-en {
+      font-family: "Cormorant Garamond", serif;
       font-size: 21px;
       font-weight: 400;
       line-height: 1.4;
-      color: var(--text);
-      flex: 1;
     }
 
     .patent-title-ar {
-      font-family: 'Noto Serif Arabic', serif;
+      font-family: "Noto Serif Arabic", serif;
       direction: rtl;
       text-align: right;
-      display: none;
+      font-size: 21px;
+      line-height: 1.7;
     }
 
     .patent-num {
       font-size: 11px;
       color: var(--soft);
       letter-spacing: 0.3px;
-      font-family: monospace;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
     }
 
     .patent-link {
       display: inline-flex;
       align-items: center;
       gap: 6px;
+      width: fit-content;
       font-size: 10px;
-      font-family: 'Cinzel', serif;
+      font-family: "Cinzel", serif;
       letter-spacing: 2px;
       text-transform: uppercase;
       color: var(--gold);
       text-decoration: none;
-      transition: gap 0.2s;
+      transition: gap 0.2s ease;
     }
 
-    .patent-link:hover { gap: 12px; }
-    .patent-link::after { content: '→'; }
+    .patent-link:hover {
+      gap: 12px;
+    }
 
-    /* ── AWARDS ── */
+    .patent-link::after {
+      content: "→";
+    }
+
+    /* AWARDS */
     .awards-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -516,28 +647,35 @@
       padding: 52px 36px 44px;
       position: relative;
       overflow: hidden;
-      transition: border-color 0.3s;
+      transition: border-color 0.3s ease, transform 0.3s ease;
+      min-height: 250px;
+    }
+
+    .award-card:hover {
+      border-color: var(--border2);
+      transform: translateY(-3px);
     }
 
     .award-card::after {
-      content: '';
+      content: "";
       position: absolute;
-      bottom: 0; right: 0;
-      width: 100px; height: 100px;
-      background: radial-gradient(ellipse at bottom right, rgba(201,168,76,0.1), transparent);
+      bottom: 0;
+      right: 0;
+      width: 100px;
+      height: 100px;
+      background: radial-gradient(ellipse at bottom right, rgba(201, 168, 76, 0.1), transparent);
       pointer-events: none;
     }
 
-    .award-card:hover { border-color: var(--border2); }
-
     .award-num {
-      font-family: 'Cormorant Garamond', serif;
+      position: absolute;
+      top: 12px;
+      inset-inline-end: 18px;
+      font-family: "Cormorant Garamond", serif;
       font-size: 88px;
       font-weight: 300;
-      color: rgba(201,168,76,0.06);
+      color: rgba(201, 168, 76, 0.06);
       line-height: 1;
-      position: absolute;
-      top: 12px; right: 18px;
       user-select: none;
     }
 
@@ -548,41 +686,47 @@
       margin-bottom: 30px;
     }
 
-    .award-title {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 24px;
-      font-weight: 400;
-      line-height: 1.35;
+    .award-title-en,
+    .award-title-ar {
       color: var(--text);
     }
 
+    .award-title-en {
+      font-family: "Cormorant Garamond", serif;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 1.35;
+    }
+
     .award-title-ar {
-      font-family: 'Noto Serif Arabic', serif;
+      font-family: "Noto Serif Arabic", serif;
       direction: rtl;
       text-align: right;
       font-size: 21px;
-      display: none;
+      line-height: 1.7;
     }
 
-    .award-org {
+    .award-org-en,
+    .award-org-ar {
       margin-top: 16px;
-      font-family: 'Cinzel', serif;
-      font-size: 10px;
-      letter-spacing: 2.5px;
-      text-transform: uppercase;
       color: var(--gold);
     }
 
+    .award-org-en {
+      font-family: "Cinzel", serif;
+      font-size: 10px;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+    }
+
     .award-org-ar {
-      font-family: 'Noto Sans Arabic', sans-serif;
+      font-family: "Noto Sans Arabic", sans-serif;
       direction: rtl;
       text-align: right;
       font-size: 12px;
-      letter-spacing: 0;
-      display: none;
     }
 
-    /* ── FOOTER ── */
+    /* FOOTER */
     footer {
       border-top: 1px solid var(--border);
       padding: 60px 48px;
@@ -591,7 +735,7 @@
     }
 
     .footer-inner {
-      max-width: 1160px;
+      max-width: var(--max);
       margin: 0 auto;
       display: flex;
       justify-content: space-between;
@@ -600,47 +744,75 @@
       gap: 32px;
     }
 
-    .footer-name {
-      font-family: 'Cormorant Garamond', serif;
+    .footer-name-en,
+    .footer-name-ar {
+      color: var(--text);
+    }
+
+    .footer-name-en {
+      font-family: "Cormorant Garamond", serif;
       font-size: 36px;
       font-weight: 300;
-      color: var(--text);
       letter-spacing: -0.5px;
     }
 
     .footer-name-ar {
-      font-family: 'Noto Serif Arabic', serif;
+      font-family: "Noto Serif Arabic", serif;
       direction: rtl;
       font-size: 30px;
-      display: none;
     }
 
-    .footer-sub {
-      font-family: 'Cinzel', serif;
-      font-size: 9px;
-      letter-spacing: 4px;
-      text-transform: uppercase;
+    .footer-sub-en,
+    .footer-sub-ar {
       color: var(--gold);
       margin-top: 8px;
     }
 
+    .footer-sub-en {
+      font-family: "Cinzel", serif;
+      font-size: 9px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+
     .footer-sub-ar {
-      font-family: 'Noto Sans Arabic', sans-serif;
+      font-family: "Noto Sans Arabic", sans-serif;
       direction: rtl;
       font-size: 12px;
-      letter-spacing: 0;
-      display: none;
     }
 
-    .footer-links { display: flex; gap: 12px; flex-wrap: wrap; }
+    .footer-links {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
 
-    /* ── ANIMATIONS ── */
+    /* ANIMATION */
     @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(28px); }
-      to   { opacity: 1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(28px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
-    .f { animation: fadeUp 0.9s cubic-bezier(0.16,1,0.3,1) both; }
+    @keyframes pulse {
+      0%,
+      100% {
+        opacity: 0.3;
+      }
+      50% {
+        opacity: 1;
+      }
+    }
+
+    .f {
+      animation: fadeUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+
     .d1 { animation-delay: 0.1s; }
     .d2 { animation-delay: 0.25s; }
     .d3 { animation-delay: 0.4s; }
@@ -648,258 +820,439 @@
     .d5 { animation-delay: 0.7s; }
     .d6 { animation-delay: 0.85s; }
 
-    /* ── Language visibility ── */
-    .ar-text,
-    .hero-name-ar,
-    .hero-title-ar,
-    .hero-bio-ar { display: none; }
+    /* LANGUAGE CONTROL */
+    [data-lang="ar"] {
+      display: none;
+    }
 
-    /* ── RTL layout fixes ── */
-    body.ar { font-family: 'Noto Sans Arabic', sans-serif; }
-    body.ar .hero-name-ar  { display: block; }
-    body.ar .hero-name-en  { display: none; }
-    body.ar .sec-eyebrow { flex-direction: row-reverse; }
-    body.ar .hero-stats   { flex-direction: row-reverse; }
-    body.ar .hstat        { border-right: none; border-left: 1px solid var(--border); }
-    body.ar .hstat:last-child { border-left: none; }
-    body.ar .footer-inner { direction: rtl; }
-    body.ar .footer-links { flex-direction: row-reverse; }
+    body.ar {
+      font-family: "Noto Sans Arabic", sans-serif;
+    }
 
-    /* ── RESPONSIVE ── */
+    body.ar [data-lang="en"] {
+      display: none !important;
+    }
+
+    body.ar [data-lang="ar"] {
+      display: block;
+    }
+
+    body.ar .hero-name-ar,
+    body.ar .hero-title-ar,
+    body.ar .hero-bio-ar,
+    body.ar .sec-title-ar,
+    body.ar .sec-sub-ar,
+    body.ar .patent-title-ar,
+    body.ar .award-title-ar,
+    body.ar .award-org-ar,
+    body.ar .footer-name-ar,
+    body.ar .footer-sub-ar {
+      display: block;
+    }
+
+    body.ar .hero-name-en,
+    body.ar .hero-title-en,
+    body.ar .hero-bio-en,
+    body.ar .sec-title-en,
+    body.ar .sec-sub-en,
+    body.ar .patent-title-en,
+    body.ar .award-title-en,
+    body.ar .award-org-en,
+    body.ar .footer-name-en,
+    body.ar .footer-sub-en {
+      display: none !important;
+    }
+
+    body.ar .sec-eyebrow {
+      flex-direction: row-reverse;
+    }
+
+    body.ar .hero-stats {
+      flex-direction: row-reverse;
+    }
+
+    body.ar .footer-inner {
+      direction: rtl;
+    }
+
+    body.ar .footer-links {
+      flex-direction: row-reverse;
+    }
+
+    body.ar .patent-link::after {
+      content: "←";
+    }
+
+    /* RESPONSIVE */
     @media (max-width: 960px) {
-      .lang-bar { padding: 16px 24px; }
-      .wrap { padding: 0 24px; }
-      .hero { padding: 120px 24px 100px; }
-      .hstat { padding: 24px 32px; }
-      .patents-layout { grid-template-columns: 1fr 1fr; }
-      .awards-grid { grid-template-columns: 1fr; gap: 14px; }
-      footer { padding: 48px 24px; }
+      .lang-bar {
+        padding: 16px 24px;
+      }
+
+      .wrap {
+        padding: 0 24px;
+      }
+
+      .hero {
+        padding: 120px 24px 100px;
+      }
+
+      .hstat {
+        padding: 24px 32px;
+      }
+
+      .patents-layout {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .awards-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+      }
+
+      footer {
+        padding: 48px 24px;
+      }
     }
 
     @media (max-width: 600px) {
-      .hero-stats { flex-direction: column; width: 100%; max-width: 320px; }
-      .hstat { border-right: none; border-bottom: 1px solid var(--border); }
-      .hstat:last-child { border-bottom: none; }
-      .patents-layout { grid-template-columns: 1fr; }
-      .site-mark { font-size: 10px; }
-      .hero-rule::before, .hero-rule::after { width: 60px; }
+      .site-mark {
+        font-size: 10px;
+      }
+
+      .hero-rule::before,
+      .hero-rule::after {
+        width: 60px;
+      }
+
+      .hero-stats {
+        flex-direction: column;
+        width: 100%;
+        max-width: 320px;
+      }
+
+      body.ar .hero-stats {
+        flex-direction: column;
+      }
+
+      .hstat {
+        border-inline-end: none;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .hstat:last-child {
+        border-bottom: none;
+      }
+
+      .patents-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .btn-gold,
+      .btn-ghost {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        animation: none !important;
+        transition: none !important;
+      }
     }
   </style>
 </head>
 <body>
+  <nav class="lang-bar" aria-label="Language switcher">
+    <div class="site-mark">Tariq Al-Khathami</div>
 
-<nav class="lang-bar">
-  <div class="site-mark">Tariq Al-Khathami</div>
-  <div class="lang-toggle">
-    <button class="lang-btn active" id="btn-en" onclick="setLang('en')">EN</button>
-    <button class="lang-btn" id="btn-ar" onclick="setLang('ar')">عربي</button>
-  </div>
-</nav>
-
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-rule f d1">
-    <span class="hero-ornament en-text">Saudi Inventor</span>
-    <span class="hero-ornament ar-text">مخترع سعودي</span>
-  </div>
-
-  <div class="f d2">
-    <h1 class="hero-name-en">Tariq<br><em>Al-Khathami</em></h1>
-    <h1 class="hero-name-ar">طارق<br><em>الخثعمي</em></h1>
-  </div>
-
-  <div class="name-divider f d3"></div>
-
-  <p class="hero-title-en f d3 en-text">Engineer &nbsp;·&nbsp; Inventor &nbsp;·&nbsp; Project Leader</p>
-  <p class="hero-title-ar f d3 ar-text">مهندس &nbsp;·&nbsp; مخترع &nbsp;·&nbsp; قائد مشاريع</p>
-
-  <p class="hero-bio f d4 en-text">Holder of USPTO-granted patents in chemical processing, robotics, and pipeline systems. Recognised by Saudi Aramco and honoured by the Royal Court for engineering excellence.</p>
-  <p class="hero-bio hero-bio-ar f d4 ar-text">حاصل على براءات اختراع ممنوحة من USPTO في المعالجة الكيميائية والروبوتيات وأنظمة خطوط الأنابيب. مُكرَّم من أرامكو السعودية والديوان الملكي على التميز الهندسي.</p>
-
-  <div class="hero-stats f d5">
-    <div class="hstat">
-      <span class="hstat-num">11</span>
-      <span class="hstat-label en-text">USPTO Patents</span>
-      <span class="hstat-label hstat-label-ar ar-text">براءة اختراع</span>
+    <div class="lang-toggle" role="group" aria-label="Language selector">
+      <button class="lang-btn active" id="btn-en" type="button" aria-label="Switch to English">
+        EN
+      </button>
+      <button class="lang-btn" id="btn-ar" type="button" aria-label="التبديل إلى العربية">
+        عربي
+      </button>
     </div>
-    <div class="hstat">
-      <span class="hstat-num">14K</span>
-      <span class="hstat-label en-text">Followers</span>
-      <span class="hstat-label hstat-label-ar ar-text">متابع</span>
-    </div>
-    <div class="hstat">
-      <span class="hstat-num">3</span>
-      <span class="hstat-label en-text">Major Awards</span>
-      <span class="hstat-label hstat-label-ar ar-text">جوائز كبرى</span>
-    </div>
-  </div>
+  </nav>
 
-  <div class="hero-links f d6">
-    <a class="btn-gold" href="https://www.linkedin.com/in/tariq-al-khathami-0a46b8122/" target="_blank" rel="noopener">LinkedIn</a>
-    <a class="btn-ghost" href="https://x.com/tariq_khathami" target="_blank" rel="noopener">X &nbsp;·&nbsp; Twitter</a>
-  </div>
-
-  <div class="scroll-cue">
-    <span class="en-text">Scroll</span>
-    <span class="ar-text">للأسفل</span>
-    <div class="scroll-line"></div>
-  </div>
-</section>
-
-<!-- PATENTS -->
-<section class="content">
-  <div class="wrap">
-    <div class="sec-eyebrow">
-      <span class="sec-label en-text">Innovation Portfolio</span>
-      <span class="sec-label ar-text">محفظة الابتكار</span>
-      <div class="sec-line"></div>
-    </div>
-
-    <h2 class="sec-title-en en-text">Patent <em>Portfolio</em></h2>
-    <h2 class="sec-title-ar ar-text">محفظة <span style="color:var(--gold2)">براءات الاختراع</span></h2>
-
-    <p class="sec-sub en-text">Granted patents and filed applications with the United States Patent and Trademark Office, spanning chemical engineering, robotics, and industrial pipeline systems.</p>
-    <p class="sec-sub sec-sub-ar ar-text">براءات اختراع ممنوحة وطلبات مقدمة لدى مكتب براءات الاختراع والعلامات التجارية الأمريكي، تشمل الهندسة الكيميائية والروبوتيات وأنظمة خطوط الأنابيب الصناعية.</p>
-
-    <div class="patents-layout">
-
-      <div class="patent-item">
-        <span class="patent-badge granted en-text">Granted · 2025</span>
-        <span class="patent-badge granted ar-text">ممنوحة · 2025</span>
-        <p class="patent-title en-text">Systems and Processes for Chemical Processing</p>
-        <p class="patent-title patent-title-ar ar-text">أنظمة وعمليات المعالجة الكيميائية</p>
-        <span class="patent-num">US 12,479,014 B2</span>
-        <a class="patent-link en-text" href="https://patents.google.com/patent/US12479014B2" target="_blank" rel="noopener">View Patent</a>
-        <a class="patent-link ar-text" href="https://patents.google.com/patent/US12479014B2" target="_blank" rel="noopener">عرض البراءة</a>
+  <main>
+    <section class="hero">
+      <div class="hero-rule f d1">
+        <span class="hero-ornament" data-lang="en">Saudi Inventor</span>
+        <span class="hero-ornament" data-lang="ar">مخترع سعودي</span>
       </div>
 
-      <div class="patent-item">
-        <span class="patent-badge granted en-text">Published · 2025</span>
-        <span class="patent-badge granted ar-text">منشورة · 2025</span>
-        <p class="patent-title en-text">Robots for Servicing Metal Equipment</p>
-        <p class="patent-title patent-title-ar ar-text">روبوتات لصيانة المعدات المعدنية</p>
-        <span class="patent-num">US20250144786A1</span>
-        <a class="patent-link en-text" href="https://patents.google.com/patent/US20250144786A1" target="_blank" rel="noopener">View Patent</a>
-        <a class="patent-link ar-text" href="https://patents.google.com/patent/US20250144786A1" target="_blank" rel="noopener">عرض البراءة</a>
+      <div class="f d2">
+        <h1 class="hero-name-en">Tariq<br /><em>Al-Khathami</em></h1>
+        <h1 class="hero-name-ar">طارق<br /><em>الخثعمي</em></h1>
       </div>
 
-      <div class="patent-item">
-        <span class="patent-badge granted en-text">Granted · 2024</span>
-        <span class="patent-badge granted ar-text">ممنوحة · 2024</span>
-        <p class="patent-title en-text">Reactive Deasphalting Process</p>
-        <p class="patent-title patent-title-ar ar-text">عملية إزالة الأسفلت التفاعلية</p>
-        <span class="patent-num">US11866447B2</span>
+      <div class="name-divider f d3"></div>
+
+      <p class="hero-title-en f d3">Engineer &nbsp;·&nbsp; Inventor &nbsp;·&nbsp; Project Leader</p>
+      <p class="hero-title-ar f d3">مهندس &nbsp;·&nbsp; مخترع &nbsp;·&nbsp; قائد مشاريع</p>
+
+      <p class="hero-bio hero-bio-en f d4">
+        Holder of USPTO-granted patents in chemical processing, robotics, and pipeline systems.
+        Recognised by Saudi Aramco and honoured by the Royal Court for engineering excellence.
+      </p>
+
+      <p class="hero-bio hero-bio-ar f d4">
+        حاصل على براءات اختراع ممنوحة من USPTO في المعالجة الكيميائية والروبوتيات وأنظمة خطوط
+        الأنابيب. مُكرَّم من أرامكو السعودية والديوان الملكي على التميز الهندسي.
+      </p>
+
+      <div class="hero-stats f d5" aria-label="Highlights">
+        <div class="hstat">
+          <span class="hstat-num">11</span>
+          <span class="hstat-label hstat-label-en">USPTO Patents</span>
+          <span class="hstat-label hstat-label-ar">براءة اختراع</span>
+        </div>
+
+        <div class="hstat">
+          <span class="hstat-num">14K</span>
+          <span class="hstat-label hstat-label-en">Followers</span>
+          <span class="hstat-label hstat-label-ar">متابع</span>
+        </div>
+
+        <div class="hstat">
+          <span class="hstat-num">3</span>
+          <span class="hstat-label hstat-label-en">Major Awards</span>
+          <span class="hstat-label hstat-label-ar">جوائز كبرى</span>
+        </div>
       </div>
 
-      <div class="patent-item">
-        <span class="patent-badge filed en-text">Filed · 2025</span>
-        <span class="patent-badge filed ar-text">مقدمة · 2025</span>
-        <p class="patent-title en-text">Blinding Plug Actuation System &amp; Methods</p>
-        <p class="patent-title patent-title-ar ar-text">نظام تشغيل سدادة التعمية وطرقه</p>
-        <span class="patent-num">19/381,879 &amp; 19/381,886</span>
+      <div class="hero-links f d6">
+        <a class="btn-gold" href="https://www.linkedin.com/in/tariq-al-khathami-0a46b8122/" target="_blank" rel="noopener noreferrer">
+          LinkedIn
+        </a>
+        <a class="btn-ghost" href="https://x.com/tariq_khathami" target="_blank" rel="noopener noreferrer">
+          X &nbsp;·&nbsp; Twitter
+        </a>
       </div>
 
-      <div class="patent-item">
-        <span class="patent-badge filed en-text">Filed · 2025</span>
-        <span class="patent-badge filed ar-text">مقدمة · 2025</span>
-        <p class="patent-title en-text">Pipeline Valve Systems &amp; Bypass Methods</p>
-        <p class="patent-title patent-title-ar ar-text">أنظمة صمامات خطوط الأنابيب وطرق التحويل</p>
-        <span class="patent-num">19/038,189 &amp; 19/033,915</span>
+      <div class="scroll-cue" aria-hidden="true">
+        <span data-lang="en">Scroll</span>
+        <span data-lang="ar">للأسفل</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <section class="content" id="patents">
+      <div class="wrap">
+        <div class="sec-eyebrow">
+          <span class="sec-label" data-lang="en">Innovation Portfolio</span>
+          <span class="sec-label" data-lang="ar">محفظة الابتكار</span>
+          <div class="sec-line"></div>
+        </div>
+
+        <h2 class="sec-title-en">Patent <em>Portfolio</em></h2>
+        <h2 class="sec-title-ar">محفظة <span style="color: var(--gold2)">براءات الاختراع</span></h2>
+
+        <p class="sec-sub sec-sub-en">
+          Granted patents and filed applications with the United States Patent and Trademark
+          Office, spanning chemical engineering, robotics, and industrial pipeline systems.
+        </p>
+        <p class="sec-sub sec-sub-ar">
+          براءات اختراع ممنوحة وطلبات مقدمة لدى مكتب براءات الاختراع والعلامات التجارية الأمريكي،
+          تشمل الهندسة الكيميائية والروبوتيات وأنظمة خطوط الأنابيب الصناعية.
+        </p>
+
+        <div class="patents-layout">
+          <article class="patent-item">
+            <span class="patent-badge granted" data-lang="en">Granted · 2025</span>
+            <span class="patent-badge granted" data-lang="ar">ممنوحة · 2025</span>
+
+            <p class="patent-title patent-title-en">Systems and Processes for Chemical Processing</p>
+            <p class="patent-title patent-title-ar">أنظمة وعمليات المعالجة الكيميائية</p>
+
+            <span class="patent-num">US 12,479,014 B2</span>
+
+            <a class="patent-link" href="https://patents.google.com/patent/US12479014B2" target="_blank" rel="noopener noreferrer">
+              <span data-lang="en">View Patent</span>
+              <span data-lang="ar">عرض البراءة</span>
+            </a>
+          </article>
+
+          <article class="patent-item">
+            <span class="patent-badge published" data-lang="en">Published · 2025</span>
+            <span class="patent-badge published" data-lang="ar">منشورة · 2025</span>
+
+            <p class="patent-title patent-title-en">Robots for Servicing Metal Equipment</p>
+            <p class="patent-title patent-title-ar">روبوتات لصيانة المعدات المعدنية</p>
+
+            <span class="patent-num">US20250144786A1</span>
+
+            <a class="patent-link" href="https://patents.google.com/patent/US20250144786A1" target="_blank" rel="noopener noreferrer">
+              <span data-lang="en">View Patent</span>
+              <span data-lang="ar">عرض البراءة</span>
+            </a>
+          </article>
+
+          <article class="patent-item">
+            <span class="patent-badge granted" data-lang="en">Granted · 2024</span>
+            <span class="patent-badge granted" data-lang="ar">ممنوحة · 2024</span>
+
+            <p class="patent-title patent-title-en">Reactive Deasphalting Process</p>
+            <p class="patent-title patent-title-ar">عملية إزالة الأسفلت التفاعلية</p>
+
+            <span class="patent-num">US11866447B2</span>
+
+            <a class="patent-link" href="https://patents.google.com/patent/US11866447B2" target="_blank" rel="noopener noreferrer">
+              <span data-lang="en">View Patent</span>
+              <span data-lang="ar">عرض البراءة</span>
+            </a>
+          </article>
+
+          <article class="patent-item">
+            <span class="patent-badge filed" data-lang="en">Filed · 2025</span>
+            <span class="patent-badge filed" data-lang="ar">مقدمة · 2025</span>
+
+            <p class="patent-title patent-title-en">Blinding Plug Actuation System &amp; Methods</p>
+            <p class="patent-title patent-title-ar">نظام تشغيل سدادة التعمية وطرقه</p>
+
+            <span class="patent-num">19/381,879 &amp; 19/381,886</span>
+          </article>
+
+          <article class="patent-item">
+            <span class="patent-badge filed" data-lang="en">Filed · 2025</span>
+            <span class="patent-badge filed" data-lang="ar">مقدمة · 2025</span>
+
+            <p class="patent-title patent-title-en">Pipeline Valve Systems &amp; Bypass Methods</p>
+            <p class="patent-title patent-title-ar">أنظمة صمامات خطوط الأنابيب وطرق التحويل</p>
+
+            <span class="patent-num">19/038,189 &amp; 19/033,915</span>
+          </article>
+
+          <article class="patent-item">
+            <span class="patent-badge filed" data-lang="en">Filed · 2025</span>
+            <span class="patent-badge filed" data-lang="ar">مقدمة · 2025</span>
+
+            <p class="patent-title patent-title-en">Pipeline Monitoring &amp; Deposit Prevention Systems</p>
+            <p class="patent-title patent-title-ar">أنظمة مراقبة خطوط الأنابيب ومنع الرواسب</p>
+
+            <span class="patent-num">19/016,332 · 19/008,010 · 19/007,990 · 19/007,974</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content" id="awards">
+      <div class="wrap">
+        <div class="sec-eyebrow">
+          <span class="sec-label" data-lang="en">Recognition</span>
+          <span class="sec-label" data-lang="ar">التكريم</span>
+          <div class="sec-line"></div>
+        </div>
+
+        <h2 class="sec-title-en">Awards &amp; <em>Honours</em></h2>
+        <h2 class="sec-title-ar">الجوائز <span style="color: var(--gold2)">والتكريمات</span></h2>
+
+        <div class="awards-grid">
+          <article class="award-card">
+            <div class="award-num">01</div>
+            <div class="award-line"></div>
+
+            <p class="award-title-en">R&amp;D Role Model Award</p>
+            <p class="award-title-ar">جائزة نموذج القدوة في البحث والتطوير</p>
+
+            <p class="award-org-en">Saudi Aramco</p>
+            <p class="award-org-ar">أرامكو السعودية</p>
+          </article>
+
+          <article class="award-card">
+            <div class="award-num">02</div>
+            <div class="award-line"></div>
+
+            <p class="award-title-en">Top 60 Finalist</p>
+            <p class="award-title-ar">ضمن أفضل 60 مشارك</p>
+
+            <p class="award-org-en">YLAB Programme</p>
+            <p class="award-org-ar">برنامج YLAB</p>
+          </article>
+
+          <article class="award-card">
+            <div class="award-num">03</div>
+            <div class="award-line"></div>
+
+            <p class="award-title-en">Royal Recognition for Academic Excellence</p>
+            <p class="award-title-ar">تكريم ملكي على التفوق الأكاديمي</p>
+
+            <p class="award-org-en">Royal Court · Saudi Arabia</p>
+            <p class="award-org-ar">الديوان الملكي · المملكة العربية السعودية</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <p class="footer-name-en">Tariq Al-Khathami</p>
+        <p class="footer-name-ar">طارق الخثعمي</p>
+
+        <p class="footer-sub-en">Saudi Inventor · Engineer · Project Leader</p>
+        <p class="footer-sub-ar">مخترع سعودي · مهندس · قائد مشاريع</p>
       </div>
 
-      <div class="patent-item">
-        <span class="patent-badge filed en-text">Filed · 2025</span>
-        <span class="patent-badge filed ar-text">مقدمة · 2025</span>
-        <p class="patent-title en-text">Pipeline Monitoring &amp; Deposit Prevention Systems</p>
-        <p class="patent-title patent-title-ar ar-text">أنظمة مراقبة خطوط الأنابيب ومنع الرواسب</p>
-        <span class="patent-num">19/016,332 · 19/008,010 · 19/007,990 · 19/007,974</span>
-      </div>
+      <div class="footer-links">
+        <a
+          class="btn-gold"
+          href="https://www.linkedin.com/in/tariq-al-khathami-0a46b8122/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style="font-size: 10px; padding: 11px 26px;"
+        >
+          LinkedIn
+        </a>
 
+        <a
+          class="btn-ghost"
+          href="https://x.com/tariq_khathami"
+          target="_blank"
+          rel="noopener noreferrer"
+          style="font-size: 10px; padding: 11px 26px;"
+        >
+          X
+        </a>
+      </div>
     </div>
-  </div>
-</section>
+  </footer>
 
-<!-- AWARDS -->
-<section class="content">
-  <div class="wrap">
-    <div class="sec-eyebrow">
-      <span class="sec-label en-text">Recognition</span>
-      <span class="sec-label ar-text">التكريم</span>
-      <div class="sec-line"></div>
-    </div>
+  <script>
+    const root = document.documentElement;
+    const body = document.body;
+    const btnEn = document.getElementById("btn-en");
+    const btnAr = document.getElementById("btn-ar");
 
-    <h2 class="sec-title-en en-text">Awards &amp; <em>Honours</em></h2>
-    <h2 class="sec-title-ar ar-text">الجوائز <span style="color:var(--gold2)">والتكريمات</span></h2>
+    function setLang(lang) {
+      const isArabic = lang === "ar";
 
-    <div class="awards-grid">
+      body.classList.toggle("ar", isArabic);
+      root.lang = isArabic ? "ar" : "en";
+      root.dir = isArabic ? "rtl" : "ltr";
 
-      <div class="award-card">
-        <div class="award-num">01</div>
-        <div class="award-line"></div>
-        <p class="award-title en-text">R&amp;D Role Model Award</p>
-        <p class="award-title award-title-ar ar-text">جائزة نموذج القدوة في البحث والتطوير</p>
-        <p class="award-org en-text">Saudi Aramco</p>
-        <p class="award-org award-org-ar ar-text">أرامكو السعودية</p>
-      </div>
+      btnEn.classList.toggle("active", !isArabic);
+      btnAr.classList.toggle("active", isArabic);
 
-      <div class="award-card">
-        <div class="award-num">02</div>
-        <div class="award-line"></div>
-        <p class="award-title en-text">Top 60 Finalist</p>
-        <p class="award-title award-title-ar ar-text">ضمن أفضل 60 مشارك</p>
-        <p class="award-org en-text">YLAB Programme</p>
-        <p class="award-org award-org-ar ar-text">برنامج YLAB</p>
-      </div>
+      localStorage.setItem("site_lang", lang);
+    }
 
-      <div class="award-card">
-        <div class="award-num">03</div>
-        <div class="award-line"></div>
-        <p class="award-title en-text">Royal Recognition for Academic Excellence</p>
-        <p class="award-title award-title-ar ar-text">تكريم ملكي على التفوق الأكاديمي</p>
-        <p class="award-org en-text">Royal Court · Saudi Arabia</p>
-        <p class="award-org award-org-ar ar-text">الديوان الملكي · المملكة العربية السعودية</p>
-      </div>
+    btnEn.addEventListener("click", () => setLang("en"));
+    btnAr.addEventListener("click", () => setLang("ar"));
 
-    </div>
-  </div>
-</section>
-
-<!-- FOOTER -->
-<footer>
-  <div class="footer-inner">
-    <div>
-      <p class="footer-name en-text">Tariq Al-Khathami</p>
-      <p class="footer-name footer-name-ar ar-text">طارق الخثعمي</p>
-      <p class="footer-sub en-text">Saudi Inventor · Engineer · Project Leader</p>
-      <p class="footer-sub footer-sub-ar ar-text">مخترع سعودي · مهندس · قائد مشاريع</p>
-    </div>
-    <div class="footer-links">
-      <a class="btn-gold" href="https://www.linkedin.com/in/tariq-al-khathami-0a46b8122/" target="_blank" rel="noopener" style="font-size:10px; padding:11px 26px;">LinkedIn</a>
-      <a class="btn-ghost" href="https://x.com/tariq_khathami" target="_blank" rel="noopener" style="font-size:10px; padding:11px 26px;">X</a>
-    </div>
-  </div>
-</footer>
-
-<script>
-  function setLang(lang) {
-    const ar = lang === 'ar';
-    document.body.classList.toggle('ar', ar);
-    document.documentElement.lang = ar ? 'ar' : 'en';
-    document.documentElement.dir  = ar ? 'rtl' : 'ltr';
-    document.getElementById('btn-en').classList.toggle('active', !ar);
-    document.getElementById('btn-ar').classList.toggle('active',  ar);
-
-    // Show/hide EN elements
-    document.querySelectorAll('.en-text').forEach(el => {
-      el.style.display = ar ? 'none' : '';
-    });
-
-    // Show/hide AR elements
-    document.querySelectorAll('.ar-text').forEach(el => {
-      el.style.display = ar ? '' : 'none';
-    });
-  }
-</script>
-
+    const savedLang = localStorage.getItem("site_lang") || "en";
+    setLang(savedLang);
+  </script>
 </body>
 </html>
