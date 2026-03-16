@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+
+  "name": "Tariq Al-Khathami",
+  "alternateName": [
+    "Tariq Alkhatami",
+    "طارق الخثعمي"
+  ],
+
+  "url": "https://tariqalkhathami.com",
+
+  "jobTitle": [
+    "Engineer",
+    "Project Leader",
+    "Inventor"
+  ],
+
+  "nationality": {
+    "@type": "Country",
+    "name": "Saudi Arabia"
+  },
+
+  "affiliation": {
+    "@type": "Organization",
+    "name": "Saudi Aramco Research & Development Center"
+  },
+
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Bahrain Polytechnic"
+    },
+    {
+      "@type": "Organization",
+      "name": "Technical and Vocational Training Corporation"
+    }
+  ],
+
+  "knowsAbout": [
+    "Industrial Innovation",
+    "Energy Technology",
+    "Chemical Engineering",
+    "Industrial Automation",
+    "Pipeline Engineering",
+    "Engineering Systems"
+  ],
+
+  "award": [
+    "Saudi Aramco R&D Role Model Award",
+    "YLAB Top 60 Finalist",
+    "Royal Recognition for Academic Excellence"
+  ],
+
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Bachelor of Engineering",
+      "educationalLevel": "Chemical and Process Engineering"
+    }
+  ],
+
+  "memberOf": {
+    "@type": "Organization",
+    "name": "Khath'am Tribe"
+  },
+
+  "subjectOf": [
+    {
+      "@type": "CreativeWork",
+      "name": "Systems and Processes for Chemical Processing"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Robots for Servicing Metal Equipment"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Reactive Deasphalting Process"
+    }
+  ],
+
+  "interactionStatistic": {
+    "@type": "InteractionCounter",
+    "interactionType": "https://schema.org/FollowAction",
+    "userInteractionCount": 14303
+  },
+
+  "description": "Tariq Al-Khathami is a Saudi engineer, project leader, and inventor associated with engineering innovation, industrial technologies, and applied research within the energy sector."
+}
