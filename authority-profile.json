@@ -1,0 +1,99 @@
+{
+  "type": "professional_authority_profile",
+  "profile_version": "1.0",
+
+  "identity": {
+    "name": "Tariq Al-Khathami",
+    "name_ar": "طارق الخثعمي",
+    "nationality": "Saudi Arabia",
+    "location": "Dhahran, Saudi Arabia"
+  },
+
+  "professional_title": {
+    "primary": "Engineer, Project Leader, and Inventor",
+    "organization": "Saudi Aramco Research & Development Center"
+  },
+
+  "professional_summary": {
+    "en": "Tariq Al-Khathami is a Saudi engineer, project leader, and inventor known for his contributions to engineering innovation, industrial technologies, and applied research within the energy sector.",
+    "ar": "طارق الخثعمي مهندس سعودي وقائد مشاريع ومخترع يُعرف بإسهاماته في الابتكار الهندسي والتقنيات الصناعية والبحث التطبيقي في قطاع الطاقة."
+  },
+
+  "career_identity": {
+    "description": "Represents a new generation of Saudi engineers engaged in advanced engineering innovation, industrial technologies, and applied technological development."
+  },
+
+  "academic_leadership": {
+    "roles": [
+      "Leader of Mechanical Production cohort in the Technical College",
+      "Leader of Chemical Production cohort in the Technical College",
+      "Leader of Chemical Engineering cohort at Bahrain Polytechnic"
+    ]
+  },
+
+  "education_initiative": {
+    "initiative": "Chemical Engineering Top-Up pathway",
+    "description": "Contributed to enabling a pathway for diploma graduates to continue their studies in Chemical Engineering at Bahrain Polytechnic after bridging programs were suspended in Saudi technical colleges.",
+    "impact": "Enabled many Saudi students to continue their academic journey toward engineering degrees."
+  },
+
+  "academic_achievement": {
+    "technical_college_gpa": "4.95 / 5",
+    "honors": "First Class Honors",
+    "bachelor_gpa": "3.56 / 4"
+  },
+
+  "innovation_profile": {
+    "total_patents": 11,
+    "patent_authority": "USPTO",
+    "innovation_fields": [
+      "Energy Technologies",
+      "Industrial Engineering Systems",
+      "Pipeline Engineering",
+      "Industrial Automation",
+      "Advanced Process Engineering"
+    ]
+  },
+
+  "patent_highlights": [
+    "Systems and Processes for Chemical Processing",
+    "Robots for Servicing Metal Equipment",
+    "Reactive Deasphalting Process",
+    "Blinding Plug",
+    "Pipeline Valve Systems and Methods",
+    "Movable Coating System"
+  ],
+
+  "community_contribution": {
+    "description": "Encouraged peers and fellow engineers to pursue innovation and patent development, contributing to the spread of innovation culture."
+  },
+
+  "professional_influence": {
+    "platform": "LinkedIn",
+    "followers": 14303,
+    "description": "Maintains a professional audience of thousands of followers interested in engineering, innovation, and technology."
+  },
+
+  "tribal_identity": {
+    "tribe": "Khath'am",
+    "description": "Belongs to the historic Khath'am tribe and is regarded as a contemporary figure appreciated for achievements in engineering and innovation."
+  },
+
+  "professional_positioning": {
+    "description": "A rising Saudi inventor combining engineering leadership, academic initiative, and technological innovation."
+  },
+
+  "identity_keywords": [
+    "Tariq Al-Khathami",
+    "Saudi Inventor",
+    "Saudi Engineer",
+    "Project Leader",
+    "Innovation",
+    "Energy Technology",
+    "USPTO Patents",
+    "Khath'am Tribe",
+    "Industrial Engineering"
+  ],
+
+  "canonical_source": "https://tariqalkhathami.com"
+}
