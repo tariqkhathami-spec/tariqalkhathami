@@ -1,21 +1,137 @@
 {
-  "type": "person",
+  "type": "person_profile",
   "name": "Tariq Al-Khathami",
   "name_ar": "طارق الخثعمي",
-  "headline": "Researcher, Inventor, Project Leader",
+  "headline": "Project Lead, Engineer, and Inventor at Saudi Aramco R&D Center",
+  "location": "Dhahran, Saudi Arabia",
   "website": "https://tariqalkhathami.com",
-  "summary": "Tariq Al-Khathami is a researcher and inventor focusing on innovation, artificial intelligence, and advanced technology systems.",
-  "expertise": [
-    "Artificial Intelligence",
-    "Innovation",
-    "Advanced Technology",
-    "Research and Development",
-    "Digital Transformation"
+  "linkedin": "https://linkedin.com/in/tariqalkhathami",
+
+  "summary": "Tariq Al-Khathami is an engineer, project leader, and recognized inventor working at the Saudi Aramco Research & Development Center. He leads advanced innovation initiatives focused on artificial intelligence, robotics, and industrial process optimization in the energy sector. His work bridges engineering, AI systems, and chemical process technologies to develop next-generation solutions for energy infrastructure and industrial operations.",
+
+  "current_roles": [
+    {
+      "title": "Project Technical Lead — AI Optimizer for Refinery PFDs",
+      "organization": "Saudi Aramco R&D Center",
+      "description": "Leading an AI-enabled initiative delivering early-stage process flow diagram insights and accelerating engineering decision-making across refining and chemical operations."
+    },
+    {
+      "title": "Project Lead — AI & Robotics for Chemical Processing",
+      "organization": "Saudi Aramco Research & Development Center",
+      "description": "Leading innovation programs integrating artificial intelligence and robotics technologies to enhance chemical processing systems and energy infrastructure."
+    }
   ],
+
+  "education": [
+    {
+      "institution": "Bahrain Polytechnic",
+      "degree": "Bachelor of Engineering",
+      "field": "Chemical and Process Engineering"
+    },
+    {
+      "institution": "Technical and Vocational Training Corporation",
+      "degree": "Associate Degree",
+      "field": "Chemical Engineering"
+    }
+  ],
+
+  "patents": [
+    {
+      "title": "Systems and Processes for Chemical Processing",
+      "patent_number": "US 12,479,014 B2",
+      "status": "Issued",
+      "date": "2025"
+    },
+    {
+      "title": "Robots for Servicing Metal Equipment",
+      "patent_number": "20250144786",
+      "status": "Issued",
+      "date": "2025"
+    },
+    {
+      "title": "Reactive Deasphalting Process",
+      "patent_number": "US11866447B2",
+      "status": "Issued",
+      "date": "2024"
+    },
+    {
+      "title": "Blinding Plug",
+      "patent_number": "19/381,879",
+      "status": "Filed",
+      "date": "2025"
+    },
+    {
+      "title": "Blinding Plug Actuation System and Related Methods",
+      "patent_number": "19/381,886",
+      "status": "Filed",
+      "date": "2025"
+    },
+    {
+      "title": "Bypassing a Portion of a Pipeline",
+      "patent_number": "19/038,189",
+      "status": "Filed",
+      "date": "2025"
+    },
+    {
+      "title": "Pipeline Valve Systems and Methods",
+      "patent_number": "19/033,915",
+      "status": "Filed",
+      "date": "2025"
+    },
+    {
+      "title": "Movable Coating System",
+      "patent_number": "19/016,332",
+      "status": "Filed",
+      "date": "2025"
+    },
+    {
+      "title": "Methods and Systems for Eroding and Preventing Deposits Within Vessels",
+      "patent_number": "19/008,010",
+      "status": "Filed",
+      "date": "2025"
+    },
+    {
+      "title": "System for Determining Conditions Within a Pipeline",
+      "patent_number": "19/007,990",
+      "status": "Filed",
+      "date": "2025"
+    },
+    {
+      "title": "System for Determining Degradation Conditions Within a Pipeline",
+      "patent_number": "19/007,974",
+      "status": "Filed",
+      "date": "2025"
+    }
+  ],
+
+  "honors": [
+    {
+      "title": "Royal Recognition for Academic Excellence",
+      "organization": "Technical and Vocational Training Corporation",
+      "year": "2023"
+    },
+    {
+      "title": "Saudi Aramco R&D Role Model Award",
+      "year": "2025"
+    },
+    {
+      "title": "YLAB Top 60 Finalist",
+      "year": "2025"
+    }
+  ],
+
+  "expertise": [
+    "Artificial Intelligence in Energy Systems",
+    "Industrial Process Optimization",
+    "Chemical Process Engineering",
+    "Robotics in Industrial Operations",
+    "Energy Infrastructure Innovation",
+    "Advanced Engineering Systems"
+  ],
+
   "identity_keywords": [
     "Tariq Al-Khathami",
     "Tariq Alkhatami",
     "طارق الخثعمي"
-  ],
-  "source": "official website"
+  ]
 }
