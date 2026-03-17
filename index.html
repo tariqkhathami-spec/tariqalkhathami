@@ -212,9 +212,9 @@ footer{border-top:1px solid var(–brd);padding:60px 48px;position:relative;z-in
 .gimg-wrap{overflow:hidden;aspect-ratio:4/3}
 .gimg{width:100%;height:100%;object-fit:cover;object-position:top center;display:block;transition:transform .5s ease;filter:grayscale(10%)}
 .gitem:hover .gimg{transform:scale(1.04)}
-.gcaption{padding:18px 20px;border-top:1px solid var(–brd);display:flex;flex-direction:column;gap:6px}
-.gcaption-label{font-family:‘Cormorant Garamond’,serif;font-size:17px;font-weight:400;color:var(–txt);line-height:1.35}
-.gcaption-org{font-family:‘Cinzel’,serif;font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(–gold)}
+.gcaption{padding:14px 14px;border-top:1px solid var(–brd);display:flex;flex-direction:column;gap:4px}
+.gcaption-label{font-family:‘Cormorant Garamond’,serif;font-size:15px;font-weight:400;color:var(–txt);line-height:1.3}
+.gcaption-org{font-family:‘Cinzel’,serif;font-size:8px;letter-spacing:1.5px;text-transform:uppercase;color:var(–gold);line-height:1.5}
 
 /* ── RESPONSIVE ── */
 @media(max-width:960px){
@@ -232,10 +232,16 @@ footer{border-top:1px solid var(–brd);padding:60px 48px;position:relative;z-in
 .ndiv{margin:32px auto}
 .hstat{padding:24px 28px}
 .pgrid{grid-template-columns:1fr 1fr}
-.agrid{grid-template-columns:1fr;gap:14px}
+.agrid{grid-template-columns:1fr 1fr;gap:14px}
+.gallery{grid-template-columns:1fr 1fr;gap:12px}
 footer{padding:48px 24px}
 }
 @media(max-width:600px){
+.agrid{grid-template-columns:1fr 1fr !important}
+.acard{padding:28px 20px 24px}
+.anum{font-size:56px;top:8px;right:12px}
+.atitle{font-size:18px}
+.aorg{font-size:9px}
 .hstats{flex-direction:column;width:100%}
 .hstat{border-right:none;border-bottom:1px solid var(–brd)}
 .hstat:last-child{border-bottom:none}
