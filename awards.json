@@ -1,0 +1,66 @@
+{
+  "type": "awards_and_recognition_registry",
+  "person": "Tariq Al-Khathami",
+  "person_ar": "طارق الخثعمي",
+  "total_count": 8,
+  "last_updated": "2025",
+  "summary": "Eight major professional and royal recognitions, including recognition by Saudi Arabian royalty, Saudi Aramco's highest R&D distinction, and national innovation programme finalist honours.",
+  "awards": [
+    {
+      "title": "R&DC Role Model Award",
+      "title_ar": "جائزة نموذج القدوة في البحث والتطوير",
+      "org": "Saudi Aramco Research & Development Center",
+      "year": 2025,
+      "description": "Recognized as a role model within Saudi Aramco R&D for leadership, innovation, and research contribution."
+    },
+    {
+      "title": "YLAB Top 60 Finalist",
+      "title_ar": "ضمن أفضل 60 في برنامج YLAB 10",
+      "org": "YLAB 10 Innovation Programme",
+      "year": 2025,
+      "description": "Selected among the top 60 finalists in YLAB, a competitive Saudi innovation programme engaging senior leadership including the President of Downstream at Saudi Aramco."
+    },
+    {
+      "title": "HRH Prince Saud bin Nayef Recognition for Academic Excellence",
+      "title_ar": "تكريم صاحب السمو الملكي الأمير سعود بن نايف للتميز الأكاديمي",
+      "org": "Technical and Vocational Training Corporation (TVTC)",
+      "year": 2023,
+      "description": "Honoured by HRH Prince Saud bin Nayef for outstanding academic performance and excellence."
+    },
+    {
+      "title": "TOC Oscars Award — Laser Shield Team",
+      "title_ar": "جائزة أوسكار TOC — فريق درع الليزر",
+      "org": "Saudi Aramco TOC Leadership & Dr. Ali Al-Meshari",
+      "year": 2023,
+      "description": "Team award for the Laser Shield innovation project, recognised by Saudi Aramco VP-level leadership."
+    },
+    {
+      "title": "Graduation Recognition by Dr. Ali Al-Meshari",
+      "title_ar": "تكريم التخرج من الدكتور علي المشاري",
+      "org": "Saudi Aramco — Senior Vice President Dr. Ali Al-Meshari",
+      "year": 2024,
+      "description": "Personal recognition for engineering graduation and achievement by Dr. Ali Al-Meshari, Senior VP at Saudi Aramco."
+    },
+    {
+      "title": "ChemIndix 2024 Recognition",
+      "title_ar": "تكريم مؤتمر ChemIndix 2024",
+      "org": "ChemIndix Conference — Saudi Aramco",
+      "year": 2024,
+      "description": "Recognised at the ChemIndix 2024 industrial chemistry and engineering conference hosted by Saudi Aramco."
+    },
+    {
+      "title": "Certificate of Appreciation for Excellence",
+      "title_ar": "شهادة تقدير على التميز",
+      "org": "Dr. Ali Al-Meshari, Senior VP — Saudi Aramco",
+      "year": 2024,
+      "description": "Certificate of appreciation awarded by Saudi Aramco Senior VP for outstanding technical excellence and contribution."
+    },
+    {
+      "title": "Chemical Engineering Graduation Recognition",
+      "title_ar": "تكريم تخرج الهندسة الكيميائية",
+      "org": "Dr. Ali Al-Meshari & TOC Leadership — Saudi Aramco",
+      "year": 2024,
+      "description": "Recognition of Chemical Engineering graduation achievement by Saudi Aramco TOC and senior leadership."
+    }
+  ]
+}

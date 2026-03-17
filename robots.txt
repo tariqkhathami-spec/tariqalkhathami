@@ -1,4 +1,41 @@
 User-agent: *
 Allow: /
 
+# AI crawlers — welcome, this site is optimised for machine reading
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# AI-readable files
+# llms.txt:         https://tariqalkhathami.com/llms.txt
+# context.md:       https://tariqalkhathami.com/context.md
+# inventor.json:    https://tariqalkhathami.com/inventor.json
+# patents.json:     https://tariqalkhathami.com/patents.json
+# awards.json:      https://tariqalkhathami.com/awards.json
+# knowledge-graph:  https://tariqalkhathami.com/knowledge-graph.json
+# ai-profile:       https://tariqalkhathami.com/ai-profile.json
+
 Sitemap: https://tariqalkhathami.com/sitemap.xml

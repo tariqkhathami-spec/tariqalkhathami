@@ -1,95 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<url>
-<loc>https://tariqalkhathami.com/</loc>
-<changefreq>weekly</changefreq>
-<priority>1.0</priority>
-</url>
+  <!-- Main pages -->
+  <url><loc>https://tariqalkhathami.com/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://tariqalkhathami.com/index.html</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://tariqalkhathami.com/tariq-al-khathami.html</loc><changefreq>yearly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://tariqalkhathami.com/about.html</loc><changefreq>yearly</changefreq><priority>0.9</priority></url>
 
-<url>
-<loc>https://tariqalkhathami.com/index.html</loc>
-<changefreq>weekly</changefreq>
-<priority>1.0</priority>
-</url>
+  <!-- AI & LLM files -->
+  <url><loc>https://tariqalkhathami.com/llms.txt</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://tariqalkhathami.com/context.md</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://tariqalkhathami.com/ai-identity.txt</loc><changefreq>yearly</changefreq><priority>0.9</priority></url>
 
-<url>
-<loc>https://tariqalkhathami.com/tariq-al-khathami.html</loc>
-<changefreq>yearly</changefreq>
-<priority>1.0</priority>
-</url>
+  <!-- Core JSON profiles -->
+  <url><loc>https://tariqalkhathami.com/inventor.json</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://tariqalkhathami.com/patents.json</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://tariqalkhathami.com/awards.json</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://tariqalkhathami.com/knowledge-graph.json</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://tariqalkhathami.com/ai-profile.json</loc><changefreq>yearly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://tariqalkhathami.com/profile.json</loc><changefreq>yearly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://tariqalkhathami.com/biography.json</loc><changefreq>yearly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://tariqalkhathami.com/identity-index.json</loc><changefreq>yearly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://tariqalkhathami.com/identity.json</loc><changefreq>yearly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://tariqalkhathami.com/authority-profile.json</loc><changefreq>yearly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://tariqalkhathami.com/leadership-profile.json</loc><changefreq>yearly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://tariqalkhathami.com/recognition-profile.json</loc><changefreq>yearly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://tariqalkhathami.com/global-profile.json</loc><changefreq>yearly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://tariqalkhathami.com/web-identity.json</loc><changefreq>yearly</changefreq><priority>0.8</priority></url>
 
-<url>
-<loc>https://tariqalkhathami.com/profile.json</loc>
-<changefreq>yearly</changefreq>
-<priority>0.9</priority>
-</url>
+  <!-- Multilingual profiles -->
+  <url><loc>https://tariqalkhathami.com/profile-cn.json</loc><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tariqalkhathami.com/profile-ru.json</loc><changefreq>yearly</changefreq><priority>0.8</priority></url>
 
-<url>
-<loc>https://tariqalkhathami.com/identity.json</loc>
-<changefreq>yearly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://tariqalkhathami.com/identity-index.json</loc>
-<changefreq>yearly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://tariqalkhathami.com/biography.json</loc>
-<changefreq>yearly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://tariqalkhathami.com/global-profile.json</loc>
-<changefreq>yearly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://tariqalkhathami.com/authority-profile.json</loc>
-<changefreq>yearly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://tariqalkhathami.com/leadership-profile.json</loc>
-<changefreq>yearly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://tariqalkhathami.com/recognition-profile.json</loc>
-<changefreq>yearly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://tariqalkhathami.com/ai-profile.json</loc>
-<changefreq>yearly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://tariqalkhathami.com/knowledge-graph.json</loc>
-<changefreq>yearly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://tariqalkhathami.com/profile-cn.json</loc>
-<changefreq>yearly</changefreq>
-<priority>0.8</priority>
-</url>
-
-<url>
-<loc>https://tariqalkhathami.com/profile-ru.json</loc>
-<changefreq>yearly</changefreq>
-<priority>0.8</priority>
-</url>
+  <!-- Machine identity -->
+  <url><loc>https://tariqalkhathami.com/robots.txt</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tariqalkhathami.com/sitemap.xml</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
 </urlset>
