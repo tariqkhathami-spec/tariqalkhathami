@@ -45,14 +45,18 @@
   },
   "career_highlights": {
     "en": [
-      "Project Technical Lead for AI-enabled refinery and process engineering initiatives.",
-      "Project Lead in innovation-driven engineering and industrial technology programs.",
+      "Technical Lead for a new R&D effort on heavy oil upgrading and advanced materials.",
+      "Project Lead for the AI Optimizer for Refinery Process Flow Diagrams (PFDs).",
+      "Led the AI & Robotics in Chemical Processing project, securing 10 patents to protect its intellectual property.",
+      "Accredited Engineer (Chemical Engineering) with the Saudi Council of Engineers.",
       "Contributor to advanced industrial and energy-related technology development.",
       "Recognized for combining engineering, invention, and applied innovation."
     ],
     "ar": [
-      "قائد فني لمشاريع مرتبطة بالذكاء الاصطناعي في مجالات التكرير والهندسة والعمليات.",
-      "قائد مشاريع في برامج الابتكار الهندسي والتقنيات الصناعية المتقدمة.",
+      "قائد فني لمسار بحثي جديد في ترقية الزيت الثقيل والمواد المتقدمة.",
+      "قائد مشروع المحسِّن الذكي لمخططات سير العمليات (PFDs) في المصافي.",
+      "قاد مشروع الذكاء الاصطناعي والروبوتات في المعالجة الكيميائية مع تسجيل 10 براءات اختراع لحماية ملكيته الفكرية.",
+      "مهندس معتمد (الهندسة الكيميائية) لدى الهيئة السعودية للمهندسين.",
       "مساهم في تطوير تقنيات متقدمة مرتبطة بالصناعة والطاقة.",
       "يُعرف بقدرته على الجمع بين الهندسة والاختراع والابتكار التطبيقي."
     ]
@@ -75,7 +79,32 @@
       "field_ar": "الهندسة الكيميائية"
     }
   ],
+  "professional_accreditation": {
+    "title": "Professional Accreditation Certificate — Engineer (Chemical Engineering)",
+    "title_ar": "شهادة الاعتماد المهني — مهندس (الهندسة الكيميائية)",
+    "issuer": "Saudi Council of Engineers",
+    "issuer_ar": "الهيئة السعودية للمهندسين",
+    "membership_number": "1309329",
+    "issued": "2026-11",
+    "expires": "2029-11"
+  },
   "patents": [
+    {
+      "title_en": "Robots for Servicing Metal Equipment",
+      "title_ar": "روبوتات لخدمة وصيانة المعدات المعدنية",
+      "patent_number": "US 12,715,108 B2",
+      "status_en": "Issued",
+      "status_ar": "ممنوحة",
+      "year": 2026
+    },
+    {
+      "title_en": "Pipeline Valve Systems and Methods",
+      "title_ar": "أنظمة وطرق لصمامات خطوط الأنابيب",
+      "patent_number": "US 12,637,915 B1",
+      "status_en": "Issued",
+      "status_ar": "ممنوحة",
+      "year": 2026
+    },
     {
       "title_en": "Systems and Processes for Chemical Processing",
       "title_ar": "أنظمة وعمليات للمعالجة الكيميائية",
@@ -85,17 +114,9 @@
       "year": 2025
     },
     {
-      "title_en": "Robots for Servicing Metal Equipment",
-      "title_ar": "روبوتات لخدمة وصيانة المعدات المعدنية",
-      "patent_number": "20250144786",
-      "status_en": "Issued",
-      "status_ar": "ممنوحة",
-      "year": 2025
-    },
-    {
       "title_en": "Reactive Deasphalting Process",
       "title_ar": "عملية نزع الأسفلت التفاعلية",
-      "patent_number": "US11866447B2",
+      "patent_number": "US 11,866,447 B2",
       "status_en": "Issued",
       "status_ar": "ممنوحة",
       "year": 2024
@@ -117,13 +138,6 @@
     {
       "title_en": "Bypassing a Portion of a Pipeline",
       "title_ar": "تجاوز جزء من خط أنابيب",
-      "status_en": "Filed",
-      "status_ar": "مقدمة / مسجلة",
-      "year": 2025
-    },
-    {
-      "title_en": "Pipeline Valve Systems and Methods",
-      "title_ar": "أنظمة وطرق لصمامات خطوط الأنابيب",
       "status_en": "Filed",
       "status_ar": "مقدمة / مسجلة",
       "year": 2025

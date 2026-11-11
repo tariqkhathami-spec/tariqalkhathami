@@ -2,40 +2,126 @@
   "type": "person_profile",
   "name": "Tariq Al-Khathami",
   "name_ar": "طارق الخثعمي",
-  "headline": "Engineer, Project Leader, and Inventor at Saudi Aramco R&D Center",
+  "headline": "Project Lead & Researcher at Saudi Aramco R&D Center | Inventor | Chemical & Process Engineer",
   "location": "Dhahran, Saudi Arabia",
   "website": "https://tariqalkhathami.com",
-  "linkedin": "https://linkedin.com/in/tariqalkhathami",
-
+  "linkedin": "https://www.linkedin.com/in/tariq-al-khathami-0a46b8122/",
   "summary": "Tariq Al-Khathami is an engineer, project leader, and recognized inventor working at the Saudi Aramco Research & Development Center. He leads advanced innovation initiatives focused on artificial intelligence, robotics, and industrial process optimization in the energy sector. His work integrates engineering, AI systems, and chemical process technologies to develop next-generation solutions for energy infrastructure and industrial operations.",
-
   "current_roles": [
     {
-      "title": "Project Technical Lead — AI Optimizer for Refinery PFDs",
-      "organization": "Saudi Aramco R&D Center",
-      "description": "Leading an AI-enabled initiative delivering early-stage process flow diagram insights and accelerating engineering decision-making across refining and chemical operations."
+      "title": "Technical Lead — Heavy Oil Upgrading & Advanced Materials",
+      "organization": "Saudi Aramco Research & Development Center",
+      "start": "2026-09",
+      "description": "Technical lead for a new R&D effort on catalytic upgrading of heavy oil residue into higher-value products and advanced materials."
     },
     {
-      "title": "Project Lead — AI & Robotics for Chemical Processing",
-      "organization": "Saudi Aramco Research & Development Center",
-      "description": "Leading innovation programs integrating artificial intelligence and robotics technologies to enhance chemical processing systems and energy infrastructure."
+      "title": "Project Lead — AI Optimizer for Refinery PFDs",
+      "organization": "Saudi Aramco Research & Development Center (Fuels & Chemicals)",
+      "start": "2025-07",
+      "description": "Leading the development of an AI-based system that generates Process Flow Diagrams (PFDs) for the energy sector, translating a patented algorithm into an operational tool for engineering design and decision-making."
     }
   ],
-
+  "previous_roles": [
+    {
+      "title": "Project Lead — AI & Robotics in Chemical Processing",
+      "organization": "Saudi Aramco Research & Development Center",
+      "start": "2023-09",
+      "end": "2025-08",
+      "description": "Led development of the Online Deposition Removal System (ODRS) to combat solid deposition in chemical processing, advancing the project through Stage 2 and securing 10 patents to protect its intellectual property."
+    },
+    {
+      "title": "Technical Lead — Predictive Modeling for Process Scaling",
+      "organization": "Saudi Aramco Research & Development Center",
+      "start": "2023-09",
+      "end": "2024-09",
+      "description": "Technical lead for a patent-derived project developing a predictive model for scale and deposit formation in process equipment."
+    }
+  ],
   "education": [
     {
       "institution": "Bahrain Polytechnic",
       "degree": "Bachelor of Engineering",
-      "field": "Chemical and Process Engineering"
+      "field": "Chemical and Process Engineering",
+      "years": "2023–2026",
+      "gpa": "3.56 / 4"
     },
     {
       "institution": "Technical and Vocational Training Corporation",
       "degree": "Associate Degree",
-      "field": "Chemical Engineering"
+      "field": "Chemical Engineering",
+      "years": "2020–2023",
+      "gpa": "4.95 / 5"
     }
   ],
-
+  "professional_accreditation": {
+    "title": "Professional Accreditation Certificate — Engineer (Chemical Engineering)",
+    "title_ar": "شهادة الاعتماد المهني — مهندس (الهندسة الكيميائية)",
+    "issuer": "Saudi Council of Engineers",
+    "issuer_ar": "الهيئة السعودية للمهندسين",
+    "membership_number": "1309329",
+    "issued": "2026-11",
+    "expires": "2029-11"
+  },
+  "certifications": [
+    {
+      "title": "Google Project Management Professional Certificate",
+      "issuer": "Google",
+      "issued": "2026-11"
+    },
+    {
+      "title": "Engineering Project Management",
+      "issuer": "Rice University",
+      "issued": "2025-11"
+    },
+    {
+      "title": "Generative AI for Leaders",
+      "issuer": "Vanderbilt University",
+      "issued": "2025-11"
+    },
+    {
+      "title": "Generative AI: Introduction and Applications",
+      "issuer": "IBM",
+      "issued": "2025-11"
+    },
+    {
+      "title": "Fundamentals of Financial Analysis",
+      "issuer": "London Business School",
+      "issued": "2025-10"
+    },
+    {
+      "title": "Self Awareness and the Effective Leader",
+      "issuer": "Rice University",
+      "issued": "2025-11"
+    },
+    {
+      "title": "Influencing People",
+      "issuer": "University of Michigan",
+      "issued": "2025-11"
+    },
+    {
+      "title": "Why Smart Executives Fail: Common Mistakes & Warning Signs",
+      "issuer": "Dartmouth College",
+      "issued": "2025-11"
+    },
+    {
+      "title": "Project Planning: Putting It All Together",
+      "issuer": "Google",
+      "issued": "2023-09"
+    }
+  ],
   "patents": [
+    {
+      "title": "Robots for Servicing Metal Equipment",
+      "patent_number": "US 12,715,108 B2",
+      "status": "Issued",
+      "year": 2026
+    },
+    {
+      "title": "Pipeline Valve Systems and Methods",
+      "patent_number": "US 12,637,915 B1",
+      "status": "Issued",
+      "year": 2026
+    },
     {
       "title": "Systems and Processes for Chemical Processing",
       "patent_number": "US 12,479,014 B2",
@@ -43,63 +129,59 @@
       "year": 2025
     },
     {
-      "title": "Robots for Servicing Metal Equipment",
-      "patent_number": "20250144786",
-      "status": "Issued",
-      "year": 2025
-    },
-    {
       "title": "Reactive Deasphalting Process",
-      "patent_number": "US11866447B2",
+      "patent_number": "US 11,866,447 B2",
       "status": "Issued",
       "year": 2024
     },
     {
       "title": "Blinding Plug",
+      "application_number": "19/381,879",
       "status": "Filed",
       "year": 2025
     },
     {
-      "title": "Blinding Plug Actuation System and Related System and Methods",
+      "title": "Blinding Plug Actuation System and Related Systems and Methods",
+      "application_number": "19/381,886",
       "status": "Filed",
       "year": 2025
     },
     {
       "title": "Bypassing a Portion of a Pipeline",
-      "status": "Filed",
-      "year": 2025
-    },
-    {
-      "title": "Pipeline Valve Systems and Methods",
+      "application_number": "19/038,189",
       "status": "Filed",
       "year": 2025
     },
     {
       "title": "Movable Coating System",
+      "application_number": "19/016,332",
       "status": "Filed",
       "year": 2025
     },
     {
       "title": "Methods and Systems for Eroding and Preventing Deposits Within Vessels",
+      "application_number": "19/008,010",
       "status": "Filed",
       "year": 2025
     },
     {
       "title": "System for Determining Conditions Within a Pipeline",
+      "application_number": "19/007,990",
       "status": "Filed",
       "year": 2025
     },
     {
       "title": "System for Determining Degradation Conditions Within a Pipeline",
+      "application_number": "19/007,974",
       "status": "Filed",
       "year": 2025
     }
   ],
-
   "honors": [
     {
       "title": "Royal Recognition for Academic Excellence",
-      "description": "Honored for outstanding academic achievement and excellence by senior leadership of the Technical and Vocational Training Corporation, recognizing exceptional academic performance and dedication."
+      "description": "Honored for outstanding academic achievement by HRH Prince Saud bin Nayef, H.E. Dr. Ahmad bin Fahd Al-Fahid (Governor of the Technical and Vocational Training Corporation), and Eng. Badr bin Ibrahim Al-Abdulwahed (Director General of Technical and Vocational Training in the Eastern Region).",
+      "year": 2023
     },
     {
       "title": "Saudi Aramco R&D Role Model Award",
@@ -112,16 +194,29 @@
       "description": "Selected among the top 60 finalists in the YLAB innovation program, engaging with senior leadership including the President of Downstream at Saudi Aramco."
     }
   ],
-
   "expertise": [
     "Artificial Intelligence for Industrial Systems",
     "Energy Innovation",
     "Chemical Process Engineering",
     "Industrial Robotics",
     "Process Optimization",
-    "Energy Infrastructure Technology"
+    "Energy Infrastructure Technology",
+    "Heavy Oil Upgrading",
+    "Supercritical Water Technologies",
+    "Project Management",
+    "Research and Development"
   ],
-
+  "languages": [
+    {
+      "language": "Arabic",
+      "proficiency": "Native or bilingual"
+    },
+    {
+      "language": "English",
+      "proficiency": "Professional working"
+    }
+  ],
+  "linkedin_followers": 16023,
   "identity_keywords": [
     "Tariq Al-Khathami",
     "Tariq Alkhatami",
