@@ -33,7 +33,28 @@
       "field": "Chemical Engineering"
     }
   ],
+  "professional_accreditation": {
+    "title": "Professional Accreditation Certificate — Engineer (Chemical Engineering)",
+    "title_ar": "شهادة الاعتماد المهني — مهندس (الهندسة الكيميائية)",
+    "issuer": "Saudi Council of Engineers",
+    "issuer_ar": "الهيئة السعودية للمهندسين",
+    "membership_number": "1309329",
+    "issued": "2026-11",
+    "expires": "2029-11"
+  },
   "patents": [
+    {
+      "title": "Robots for Servicing Metal Equipment",
+      "patent_number": "US 12,715,108 B2",
+      "status": "Issued",
+      "year": 2026
+    },
+    {
+      "title": "Pipeline Valve Systems and Methods",
+      "patent_number": "US 12,637,915 B1",
+      "status": "Issued",
+      "year": 2026
+    },
     {
       "title": "Systems and Processes for Chemical Processing",
       "patent_number": "US 12,479,014 B2",
@@ -41,14 +62,8 @@
       "year": 2025
     },
     {
-      "title": "Robots for Servicing Metal Equipment",
-      "patent_number": "20250144786",
-      "status": "Issued",
-      "year": 2025
-    },
-    {
       "title": "Reactive Deasphalting Process",
-      "patent_number": "US11866447B2",
+      "patent_number": "US 11,866,447 B2",
       "status": "Issued",
       "year": 2024
     },
@@ -64,11 +79,6 @@
     },
     {
       "title": "Bypassing a Portion of a Pipeline",
-      "status": "Filed",
-      "year": 2025
-    },
-    {
-      "title": "Pipeline Valve Systems and Methods",
       "status": "Filed",
       "year": 2025
     },

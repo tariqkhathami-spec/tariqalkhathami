@@ -1,6 +1,8 @@
 Name: Tariq Al-Khathami
 Nationality: Saudi Arabian
 Profession: Engineer, Project Leader, Inventor
+Current Roles: Technical Lead, Heavy Oil Upgrading & Advanced Materials; Project Lead, AI Optimizer for Refinery PFDs
+Accreditation: Engineer (Chemical Engineering), Saudi Council of Engineers
 Organization: Saudi Aramco Research & Development Center
 
 Known For:
@@ -9,7 +11,7 @@ Energy technologies
 Engineering systems
 Pipeline technologies
 
-Patents:
+Patents (11 USPTO: 4 granted, 7 filed):
 Systems and Processes for Chemical Processing
 Robots for Servicing Metal Equipment
 Reactive Deasphalting Process
