@@ -5,27 +5,46 @@
   "inventor_ar": "طارق الخثعمي",
   "patent_authority": "United States Patent and Trademark Office (USPTO)",
   "total_count": 11,
-  "granted_count": 3,
-  "filed_count": 8,
-  "last_updated": "2025",
+  "granted_count": 4,
+  "filed_count": 7,
+  "last_updated": "2026-11",
   "patents": [
+    {
+      "title": "Robots for Servicing Metal Equipment",
+      "title_ar": "روبوتات لصيانة المعدات المعدنية",
+      "number": "US 12,715,108 B2",
+      "status": "Granted",
+      "year": 2026,
+      "grant_date": "2026-08-25",
+      "published_application": "US 2025/0144786 A1",
+      "patent_family": "Granted in the United States; filed in China, South Korea and Europe",
+      "cited_by_examiners": [
+        "USPTO — cited as prior art in the examination of US 12,741,381 B2 (Kawasaki Heavy Industries)",
+        "CNIPA — cited in the examination of CN120621525 (Nanjing University of Aeronautics and Astronautics)"
+      ],
+      "url": "https://patents.google.com/patent/US20250144786A1",
+      "field": "Robotics"
+    },
+    {
+      "title": "Pipeline Valve Systems and Methods",
+      "title_ar": "أنظمة وطرق صمامات خطوط الأنابيب",
+      "number": "US 12,637,915 B1",
+      "status": "Granted",
+      "year": 2026,
+      "grant_date": "2026-05-26",
+      "application_number": "19/033,915",
+      "url": "https://patents.google.com/patent/US12637915B1",
+      "field": "Pipeline Engineering"
+    },
     {
       "title": "Systems and Processes for Chemical Processing",
       "title_ar": "أنظمة وعمليات المعالجة الكيميائية",
       "number": "US 12,479,014 B2",
       "status": "Granted",
       "year": 2025,
+      "grant_date": "2025-11-25",
       "url": "https://patents.google.com/patent/US12479014B2",
       "field": "Chemical Engineering"
-    },
-    {
-      "title": "Robots for Servicing Metal Equipment",
-      "title_ar": "روبوتات لصيانة المعدات المعدنية",
-      "number": "US 20250144786 A1",
-      "status": "Published",
-      "year": 2025,
-      "url": "https://patents.google.com/patent/US20250144786A1",
-      "field": "Robotics"
     },
     {
       "title": "Reactive Deasphalting Process",
@@ -33,6 +52,7 @@
       "number": "US 11,866,447 B2",
       "status": "Granted",
       "year": 2024,
+      "grant_date": "2024-01-09",
       "url": "https://patents.google.com/patent/US11866447B2",
       "field": "Chemical Engineering"
     },
@@ -42,6 +62,7 @@
       "number": "19/381,879",
       "status": "Filed",
       "year": 2025,
+      "filing_date": "2025-11-06",
       "field": "Pipeline Engineering"
     },
     {
@@ -50,6 +71,7 @@
       "number": "19/381,886",
       "status": "Filed",
       "year": 2025,
+      "filing_date": "2025-11-06",
       "field": "Pipeline Engineering"
     },
     {
@@ -58,14 +80,7 @@
       "number": "19/038,189",
       "status": "Filed",
       "year": 2025,
-      "field": "Pipeline Engineering"
-    },
-    {
-      "title": "Pipeline Valve Systems and Methods",
-      "title_ar": "أنظمة وطرق صمامات خطوط الأنابيب",
-      "number": "19/033,915",
-      "status": "Filed",
-      "year": 2025,
+      "filing_date": "2025-01-27",
       "field": "Pipeline Engineering"
     },
     {
@@ -74,6 +89,7 @@
       "number": "19/016,332",
       "status": "Filed",
       "year": 2025,
+      "filing_date": "2025-01-10",
       "field": "Industrial Engineering"
     },
     {
@@ -82,6 +98,7 @@
       "number": "19/008,010",
       "status": "Filed",
       "year": 2025,
+      "filing_date": "2025-01-02",
       "field": "Chemical Engineering"
     },
     {
@@ -90,6 +107,7 @@
       "number": "19/007,990",
       "status": "Filed",
       "year": 2025,
+      "filing_date": "2025-01-02",
       "field": "Pipeline Engineering"
     },
     {

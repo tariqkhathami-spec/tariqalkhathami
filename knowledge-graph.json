@@ -11,18 +11,20 @@
     "طارق الخثعمي",
     "طارق محمد الخثعمي"
   ],
-  "description": "Tariq Al-Khathami is a Saudi inventor, engineer, and project leader at Saudi Aramco Research & Development Center. He holds 11 USPTO patents in chemical processing, robotics, and pipeline engineering, and has received 8 major professional and royal recognitions.",
+  "description": "Tariq Al-Khathami is a Saudi inventor, engineer, and Project Lead & Researcher at the Saudi Aramco Research & Development Center. He is a named inventor on 11 USPTO patents and applications, four of them granted, in chemical processing, robotics, and pipeline engineering. He is an accredited Engineer (Chemical Engineering) with the Saudi Council of Engineers and has received 8 major professional and royal recognitions.",
   "url": "https://tariqalkhathami.com",
   "sameAs": [
     "https://www.linkedin.com/in/tariq-al-khathami-0a46b8122/",
     "https://x.com/tariq_khathami",
+    "https://patents.google.com/patent/US12637915B1",
     "https://patents.google.com/patent/US12479014B2",
     "https://patents.google.com/patent/US11866447B2",
     "https://patents.google.com/patent/US20250144786A1"
   ],
   "jobTitle": [
+    "Project Lead & Researcher",
+    "Technical Lead",
     "Engineer",
-    "Project Technical Lead",
     "Inventor"
   ],
   "nationality": {
@@ -37,28 +39,145 @@
       "name": "Saudi Aramco"
     }
   },
+  "workLocation": {
+    "@type": "Place",
+    "name": "Dhahran, Eastern Province, Saudi Arabia"
+  },
   "alumniOf": [
     {
       "@type": "CollegeOrUniversity",
       "name": "Bahrain Polytechnic",
-      "description": "BEng Chemical and Process Engineering, GPA 3.56/4"
+      "description": "Bachelor of Engineering, Chemical and Process Engineering, 2023–2026, GPA 3.56/4"
     },
     {
       "@type": "EducationalOrganization",
       "name": "Technical and Vocational Training Corporation (TVTC)",
-      "description": "Chemical Technology, GPA 4.95/5, First Class Honors"
+      "description": "Associate degree, Chemical Engineering (Chemical Technology), 2020–2023, GPA 4.95/5, First Class Honors"
+    }
+  ],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Professional Accreditation Certificate — Engineer (Chemical Engineering)",
+      "credentialCategory": "Professional accreditation",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Saudi Council of Engineers"
+      },
+      "dateCreated": "2026-11",
+      "identifier": "1309329",
+      "expires": "2029-11"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Google Project Management Professional Certificate",
+      "credentialCategory": "certificate",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Google"
+      },
+      "dateCreated": "2026-11"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Engineering Project Management",
+      "credentialCategory": "certificate",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Rice University"
+      },
+      "dateCreated": "2025-11"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Generative AI for Leaders",
+      "credentialCategory": "certificate",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Vanderbilt University"
+      },
+      "dateCreated": "2025-11"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Generative AI: Introduction and Applications",
+      "credentialCategory": "certificate",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "IBM"
+      },
+      "dateCreated": "2025-11"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Fundamentals of Financial Analysis",
+      "credentialCategory": "certificate",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "London Business School"
+      },
+      "dateCreated": "2025-10"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Self Awareness and the Effective Leader",
+      "credentialCategory": "certificate",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Rice University"
+      },
+      "dateCreated": "2025-11"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Influencing People",
+      "credentialCategory": "certificate",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "University of Michigan"
+      },
+      "dateCreated": "2025-11"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Why Smart Executives Fail: Common Mistakes & Warning Signs",
+      "credentialCategory": "certificate",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Dartmouth College"
+      },
+      "dateCreated": "2025-11"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Project Planning: Putting It All Together",
+      "credentialCategory": "certificate",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Google"
+      },
+      "dateCreated": "2023-09"
     }
   ],
   "knowsAbout": [
     "Chemical Process Engineering",
+    "Heavy Oil Upgrading",
     "Reactive Deasphalting",
+    "Supercritical Water Technologies",
     "Pipeline Engineering",
     "Industrial Robotics",
     "Movable Coating Systems",
     "AI for Industrial Processes",
+    "Process Flow Diagram (PFD) Optimization",
     "Energy Technology",
     "Process Optimization",
-    "Pipeline Integrity"
+    "Pipeline Integrity",
+    "Research and Development",
+    "Project Management"
+  ],
+  "knowsLanguage": [
+    "Arabic",
+    "English"
   ],
   "award": [
     "R&DC Role Model Award (Saudi Aramco Research & Development Center, 2025)",
@@ -73,10 +192,10 @@
   "owns": [
     {
       "@type": "Patent",
-      "name": "Systems and Processes for Chemical Processing",
-      "identifier": "US 12,479,014 B2",
-      "datePublished": "2025",
-      "url": "https://patents.google.com/patent/US12479014B2",
+      "name": "Robots for Servicing Metal Equipment",
+      "identifier": "US 12,715,108 B2",
+      "datePublished": "2026-08-25",
+      "url": "https://patents.google.com/patent/US20250144786A1",
       "issuedBy": {
         "@type": "Organization",
         "name": "USPTO"
@@ -84,10 +203,21 @@
     },
     {
       "@type": "Patent",
-      "name": "Robots for Servicing Metal Equipment",
-      "identifier": "US 20250144786 A1",
-      "datePublished": "2025",
-      "url": "https://patents.google.com/patent/US20250144786A1",
+      "name": "Pipeline Valve Systems and Methods",
+      "identifier": "US 12,637,915 B1",
+      "datePublished": "2026-05-26",
+      "url": "https://patents.google.com/patent/US12637915B1",
+      "issuedBy": {
+        "@type": "Organization",
+        "name": "USPTO"
+      }
+    },
+    {
+      "@type": "Patent",
+      "name": "Systems and Processes for Chemical Processing",
+      "identifier": "US 12,479,014 B2",
+      "datePublished": "2025-11-25",
+      "url": "https://patents.google.com/patent/US12479014B2",
       "issuedBy": {
         "@type": "Organization",
         "name": "USPTO"
@@ -97,7 +227,7 @@
       "@type": "Patent",
       "name": "Reactive Deasphalting Process",
       "identifier": "US 11,866,447 B2",
-      "datePublished": "2024",
+      "datePublished": "2024-01-09",
       "url": "https://patents.google.com/patent/US11866447B2",
       "issuedBy": {
         "@type": "Organization",
@@ -112,6 +242,6 @@
   "interactionStatistic": {
     "@type": "InteractionCounter",
     "interactionType": "https://schema.org/FollowAction",
-    "userInteractionCount": 14303
+    "userInteractionCount": 16023
   }
 }

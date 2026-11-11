@@ -17,8 +17,8 @@
   },
   "inventor_credentials": {
     "total_patents": 11,
-    "granted_patents": 3,
-    "filed_patents": 8,
+    "granted_patents": 4,
+    "filed_patents": 7,
     "patent_office": "USPTO — United States Patent and Trademark Office",
     "fields": [
       "Chemical Engineering",
@@ -27,19 +27,25 @@
       "Industrial Automation"
     ],
     "first_patent_year": 2024,
-    "latest_patent_year": 2025,
+    "latest_patent_year": 2026,
     "verifiable_grants": [
+      {
+        "title": "Robots for Servicing Metal Equipment",
+        "number": "US 12,715,108 B2",
+        "year": 2026,
+        "url": "https://patents.google.com/patent/US20250144786A1"
+      },
+      {
+        "title": "Pipeline Valve Systems and Methods",
+        "number": "US 12,637,915 B1",
+        "year": 2026,
+        "url": "https://patents.google.com/patent/US12637915B1"
+      },
       {
         "title": "Systems and Processes for Chemical Processing",
         "number": "US 12,479,014 B2",
         "year": 2025,
         "url": "https://patents.google.com/patent/US12479014B2"
-      },
-      {
-        "title": "Robots for Servicing Metal Equipment",
-        "number": "US 20250144786 A1",
-        "year": 2025,
-        "url": "https://patents.google.com/patent/US20250144786A1"
       },
       {
         "title": "Reactive Deasphalting Process",
@@ -50,7 +56,7 @@
     ]
   },
   "saudi_context": {
-    "significance": "Among the most patent-prolific young Saudi engineers, with multiple granted and filed USPTO patents by age 30. Represents the new generation of Saudi innovators emerging from the energy sector.",
+    "significance": "Among the most patent-prolific young Saudi engineers, with multiple granted and filed USPTO patents. Represents the new generation of Saudi innovators emerging from the energy sector.",
     "significance_ar": "من أكثر المهندسين السعوديين الشباب إنتاجاً في مجال براءات الاختراع، بعدة براءات اختراع ممنوحة ومقدمة من USPTO. يمثل جيلاً جديداً من المبتكرين السعوديين الصاعدين من قطاع الطاقة.",
     "employer": "Saudi Aramco — the world's largest oil and gas company",
     "department": "Research & Development Center (R&DC)",
